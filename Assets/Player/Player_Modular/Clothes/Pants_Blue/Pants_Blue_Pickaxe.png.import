@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpkxggw6onqnk"
-path="res://.godot/imported/Pants_Blue_Pickaxe.png-d0990832318bba196d610e5fe6801864.ctex"
+path="res://.godot/imported/pants_blue_pickaxe.png-875344e471b7c4fb8b60910d681d7650.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Pants_Blue/Pants_Blue_Pickaxe.png"
-dest_files=["res://.godot/imported/Pants_Blue_Pickaxe.png-d0990832318bba196d610e5fe6801864.ctex"]
+source_file="res://assets/player/player_modular/clothes/pants_blue/pants_blue_pickaxe.png"
+dest_files=["res://.godot/imported/pants_blue_pickaxe.png-875344e471b7c4fb8b60910d681d7650.ctex"]
 
 [params]
 

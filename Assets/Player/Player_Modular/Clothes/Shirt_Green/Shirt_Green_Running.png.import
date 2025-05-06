@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gew6ip0bm40v"
-path="res://.godot/imported/Shirt_Green_Running.png-edb32f0ae19d421b69246182e008775c.ctex"
+path="res://.godot/imported/shirt_green_running.png-a37b5f97a384de413c77ebb9b3a950df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Running.png"
-dest_files=["res://.godot/imported/Shirt_Green_Running.png-edb32f0ae19d421b69246182e008775c.ctex"]
+source_file="res://assets/player/player_modular/clothes/shirt_green/shirt_green_running.png"
+dest_files=["res://.godot/imported/shirt_green_running.png-a37b5f97a384de413c77ebb9b3a950df.ctex"]
 
 [params]
 

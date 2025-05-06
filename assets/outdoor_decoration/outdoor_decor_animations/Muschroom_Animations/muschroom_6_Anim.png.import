@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3heh0djnphwf"
-path="res://.godot/imported/muschroom_6_Anim.png-ea31093c92db6c91ba47fbe7eeda62e1.ctex"
+path="res://.godot/imported/muschroom_6_anim.png-c36f443cb58deedcba5ab60377d528fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/outdoor_decor_animations/Muschroom_Animations/muschroom_6_Anim.png"
-dest_files=["res://.godot/imported/muschroom_6_Anim.png-ea31093c92db6c91ba47fbe7eeda62e1.ctex"]
+source_file="res://assets/outdoor_decoration/outdoor_decor_animations/muschroom_animations/muschroom_6_anim.png"
+dest_files=["res://.godot/imported/muschroom_6_anim.png-c36f443cb58deedcba5ab60377d528fd.ctex"]
 
 [params]
 

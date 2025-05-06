@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nnb0bdc2k4gp"
-path="res://.godot/imported/Picnic_Blankets.png-85be8df62585f76082b24d514374a59c.ctex"
+path="res://.godot/imported/picnic_blankets.png-e467cb7ba7d539d1a09f7ed95fcae97d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiles/Picnic_Blankets.png"
-dest_files=["res://.godot/imported/Picnic_Blankets.png-85be8df62585f76082b24d514374a59c.ctex"]
+source_file="res://assets/tiles/picnic_blankets.png"
+dest_files=["res://.godot/imported/picnic_blankets.png-e467cb7ba7d539d1a09f7ed95fcae97d.ctex"]
 
 [params]
 

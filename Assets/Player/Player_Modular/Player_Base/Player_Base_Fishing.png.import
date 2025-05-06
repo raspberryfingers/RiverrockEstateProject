@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3qhsrav3g15t"
-path="res://.godot/imported/Player_Base_Fishing.png-346ff92ab203743113a8add8cc021c8c.ctex"
+path="res://.godot/imported/player_base_fishing.png-cc177ae9690d589c09a4d6910e3589dc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Player_Base/Player_Base_Fishing.png"
-dest_files=["res://.godot/imported/Player_Base_Fishing.png-346ff92ab203743113a8add8cc021c8c.ctex"]
+source_file="res://assets/player/player_modular/player_base/player_base_fishing.png"
+dest_files=["res://.godot/imported/player_base_fishing.png-cc177ae9690d589c09a4d6910e3589dc.ctex"]
 
 [params]
 

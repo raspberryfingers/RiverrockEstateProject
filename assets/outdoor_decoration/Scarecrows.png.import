@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bklo3nykigmun"
-path="res://.godot/imported/Scarecrows.png-7b7b80828447b5da128a5368442ad43b.ctex"
+path="res://.godot/imported/scarecrows.png-84a31bb58c688aa9a4cc438a82277460.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/Scarecrows.png"
-dest_files=["res://.godot/imported/Scarecrows.png-7b7b80828447b5da128a5368442ad43b.ctex"]
+source_file="res://assets/outdoor_decoration/scarecrows.png"
+dest_files=["res://.godot/imported/scarecrows.png-84a31bb58c688aa9a4cc438a82277460.ctex"]
 
 [params]
 

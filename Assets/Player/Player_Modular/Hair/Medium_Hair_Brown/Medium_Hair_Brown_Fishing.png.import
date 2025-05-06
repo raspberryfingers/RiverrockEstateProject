@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc0l6fsw6uuan"
-path="res://.godot/imported/Medium_Hair_Brown_Fishing.png-cfdfc908515bf017f8841469f2366231.ctex"
+path="res://.godot/imported/medium_hair_brown_fishing.png-5fbcbe79583c00a70de5774ff7de56e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Fishing.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_Fishing.png-cfdfc908515bf017f8841469f2366231.ctex"]
+source_file="res://assets/player/player_modular/hair/medium_hair_brown/medium_hair_brown_fishing.png"
+dest_files=["res://.godot/imported/medium_hair_brown_fishing.png-5fbcbe79583c00a70de5774ff7de56e5.ctex"]
 
 [params]
 

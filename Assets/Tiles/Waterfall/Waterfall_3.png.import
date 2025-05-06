@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q007cks8hqa8"
-path="res://.godot/imported/Waterfall_3.png-4aa733729edd0ea6a0951fab0f5e9859.ctex"
+path="res://.godot/imported/waterfall_3.png-b6b53350eb9639d88a60243a3a260ae1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiles/waterfall/Waterfall_3.png"
-dest_files=["res://.godot/imported/Waterfall_3.png-4aa733729edd0ea6a0951fab0f5e9859.ctex"]
+source_file="res://assets/tiles/waterfall/waterfall_3.png"
+dest_files=["res://.godot/imported/waterfall_3.png-b6b53350eb9639d88a60243a3a260ae1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnvhun3irdink"
-path="res://.godot/imported/Crate_Anim.png-0c5b296e2dd87c68682cd370686840d9.ctex"
+path="res://.godot/imported/crate_anim.png-c072478e03f73940ea050111c13195ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/outdoor_decor_animations/Break_Animations/Crate_Anim.png"
-dest_files=["res://.godot/imported/Crate_Anim.png-0c5b296e2dd87c68682cd370686840d9.ctex"]
+source_file="res://assets/outdoor_decoration/outdoor_decor_animations/break_animations/crate_anim.png"
+dest_files=["res://.godot/imported/crate_anim.png-c072478e03f73940ea050111c13195ca.ctex"]
 
 [params]
 

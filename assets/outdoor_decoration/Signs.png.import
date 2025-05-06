@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caxekj1mc405n"
-path="res://.godot/imported/Signs.png-60e928d0b286929cb37cffbf6183f56a.ctex"
+path="res://.godot/imported/signs.png-618460fc2f6921d6a20f0d856ee57e02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/Signs.png"
-dest_files=["res://.godot/imported/Signs.png-60e928d0b286929cb37cffbf6183f56a.ctex"]
+source_file="res://assets/outdoor_decoration/signs.png"
+dest_files=["res://.godot/imported/signs.png-618460fc2f6921d6a20f0d856ee57e02.ctex"]
 
 [params]
 

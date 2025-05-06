@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcdpbhph0ctnv"
-path="res://.godot/imported/Shoes_Brown_Push.png-07e534be83136443bd814e58d0dbaf0d.ctex"
+path="res://.godot/imported/shoes_brown_push.png-7f2443339c899511d398b70e2d57ca67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Shoes_Brown/Shoes_Brown_Push.png"
-dest_files=["res://.godot/imported/Shoes_Brown_Push.png-07e534be83136443bd814e58d0dbaf0d.ctex"]
+source_file="res://assets/player/player_modular/clothes/shoes_brown/shoes_brown_push.png"
+dest_files=["res://.godot/imported/shoes_brown_push.png-7f2443339c899511d398b70e2d57ca67.ctex"]
 
 [params]
 

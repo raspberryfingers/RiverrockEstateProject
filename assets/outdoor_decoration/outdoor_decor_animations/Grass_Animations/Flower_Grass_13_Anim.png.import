@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mn1kkyenswd1"
-path="res://.godot/imported/Flower_Grass_13_Anim.png-c28b6ec5666193a0b645c95fd42773ea.ctex"
+path="res://.godot/imported/flower_grass_13_anim.png-7678f068b0e87c3be1712522f3297b61.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/outdoor_decor_animations/Grass_Animations/Flower_Grass_13_Anim.png"
-dest_files=["res://.godot/imported/Flower_Grass_13_Anim.png-c28b6ec5666193a0b645c95fd42773ea.ctex"]
+source_file="res://assets/outdoor_decoration/outdoor_decor_animations/grass_animations/flower_grass_13_anim.png"
+dest_files=["res://.godot/imported/flower_grass_13_anim.png-7678f068b0e87c3be1712522f3297b61.ctex"]
 
 [params]
 

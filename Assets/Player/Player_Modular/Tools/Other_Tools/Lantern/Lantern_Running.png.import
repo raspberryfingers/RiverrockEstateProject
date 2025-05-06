@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqgve8hbotgq5"
-path="res://.godot/imported/Lantern_Running.png-d2141aee2d62aaf166e61feb9c102757.ctex"
+path="res://.godot/imported/lantern_running.png-3c78ada2ed87c18572dcca0d9c4349f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Tools/Other_Tools/Lantern/Lantern_Running.png"
-dest_files=["res://.godot/imported/Lantern_Running.png-d2141aee2d62aaf166e61feb9c102757.ctex"]
+source_file="res://assets/player/player_modular/tools/other_tools/lantern/lantern_running.png"
+dest_files=["res://.godot/imported/lantern_running.png-3c78ada2ed87c18572dcca0d9c4349f9.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgmypkabv1ykh"
-path="res://.godot/imported/Wind_Anim.png-f1e9315eb1d75c4c14e9d2eb3b703a36.ctex"
+path="res://.godot/imported/wind_anim.png-cf735bce3f7b6b751b6697d10742d089.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/weather_effects/Wind_Anim.png"
-dest_files=["res://.godot/imported/Wind_Anim.png-f1e9315eb1d75c4c14e9d2eb3b703a36.ctex"]
+source_file="res://assets/weather_effects/wind_anim.png"
+dest_files=["res://.godot/imported/wind_anim.png-cf735bce3f7b6b751b6697d10742d089.ctex"]
 
 [params]
 

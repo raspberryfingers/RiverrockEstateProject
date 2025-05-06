@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5iuvf4ovsrys"
-path="res://.godot/imported/Shirt_Green_Horse.png-bc4f3e6d38ec19c443ff3e829e157410.ctex"
+path="res://.godot/imported/shirt_green_horse.png-d019fd3f4948cb538456ba467ade3061.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Horse.png"
-dest_files=["res://.godot/imported/Shirt_Green_Horse.png-bc4f3e6d38ec19c443ff3e829e157410.ctex"]
+source_file="res://assets/player/player_modular/clothes/shirt_green/shirt_green_horse.png"
+dest_files=["res://.godot/imported/shirt_green_horse.png-d019fd3f4948cb538456ba467ade3061.ctex"]
 
 [params]
 

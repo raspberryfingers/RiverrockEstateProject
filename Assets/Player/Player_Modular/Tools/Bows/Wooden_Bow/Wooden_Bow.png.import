@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bux8v2brmmwbd"
-path="res://.godot/imported/Wooden_Bow.png-e0bdc6a0cde0ce3e5ca28a3e26b15a90.ctex"
+path="res://.godot/imported/wooden_bow.png-27eedb2f5f4aa391358d53685139053c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Tools/Bows/Wooden_Bow/Wooden_Bow.png"
-dest_files=["res://.godot/imported/Wooden_Bow.png-e0bdc6a0cde0ce3e5ca28a3e26b15a90.ctex"]
+source_file="res://assets/player/player_modular/tools/bows/wooden_bow/wooden_bow.png"
+dest_files=["res://.godot/imported/wooden_bow.png-27eedb2f5f4aa391358d53685139053c.ctex"]
 
 [params]
 

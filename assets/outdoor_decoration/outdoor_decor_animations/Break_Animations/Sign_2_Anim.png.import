@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2iap4sv4s1l"
-path="res://.godot/imported/Sign_2_Anim.png-7b266ba81e476c25b1462cb40b0deeed.ctex"
+path="res://.godot/imported/sign_2_anim.png-f9493f06f5c1dbebeb676c3832b82186.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/outdoor_decor_animations/Break_Animations/Sign_2_Anim.png"
-dest_files=["res://.godot/imported/Sign_2_Anim.png-7b266ba81e476c25b1462cb40b0deeed.ctex"]
+source_file="res://assets/outdoor_decoration/outdoor_decor_animations/break_animations/sign_2_anim.png"
+dest_files=["res://.godot/imported/sign_2_anim.png-f9493f06f5c1dbebeb676c3832b82186.ctex"]
 
 [params]
 

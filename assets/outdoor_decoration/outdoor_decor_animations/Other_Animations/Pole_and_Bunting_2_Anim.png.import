@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t46ea2n26q7g"
-path="res://.godot/imported/Pole_and_Bunting_2_Anim.png-e542a71768ac13fd14dd9fea7c7771cd.ctex"
+path="res://.godot/imported/pole_and_bunting_2_anim.png-3cfa9201fbcf5796130418b9818b17e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/outdoor_decor_animations/Other_Animations/Pole_and_Bunting_2_Anim.png"
-dest_files=["res://.godot/imported/Pole_and_Bunting_2_Anim.png-e542a71768ac13fd14dd9fea7c7771cd.ctex"]
+source_file="res://assets/outdoor_decoration/outdoor_decor_animations/other_animations/pole_and_bunting_2_anim.png"
+dest_files=["res://.godot/imported/pole_and_bunting_2_anim.png-3cfa9201fbcf5796130418b9818b17e4.ctex"]
 
 [params]
 

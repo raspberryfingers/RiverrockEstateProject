@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blgvgiwyg8dk5"
-path="res://.godot/imported/Player_Base_Roll.png-f9d3abcb114702168e96902a07c7dd51.ctex"
+path="res://.godot/imported/player_base_roll.png-08ed1b4e9e3906be7de11d44a3d5670f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Player_Base/Player_Base_Roll.png"
-dest_files=["res://.godot/imported/Player_Base_Roll.png-f9d3abcb114702168e96902a07c7dd51.ctex"]
+source_file="res://assets/player/player_modular/player_base/player_base_roll.png"
+dest_files=["res://.godot/imported/player_base_roll.png-08ed1b4e9e3906be7de11d44a3d5670f.ctex"]
 
 [params]
 

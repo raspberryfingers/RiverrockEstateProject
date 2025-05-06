@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds0k57wrbiclb"
-path="res://.godot/imported/Picnic_Basket.png-1abd637061582cd1107f3c55cb8ec2f6.ctex"
+path="res://.godot/imported/picnic_basket.png-7bc80121c01811846ae689d1a56314ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/outdoor_decoration/Picnic_Basket.png"
-dest_files=["res://.godot/imported/Picnic_Basket.png-1abd637061582cd1107f3c55cb8ec2f6.ctex"]
+source_file="res://assets/outdoor_decoration/picnic_basket.png"
+dest_files=["res://.godot/imported/picnic_basket.png-7bc80121c01811846ae689d1a56314ab.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crq70ijn625um"
-path="res://.godot/imported/Iron_Axe.png-e06a32da58692b2286156eba021d2ddc.ctex"
+path="res://.godot/imported/iron_axe.png-6840ab30696907ce3af66f40ca3dab00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Tools/Iron_Tools/Iron_Axe.png"
-dest_files=["res://.godot/imported/Iron_Axe.png-e06a32da58692b2286156eba021d2ddc.ctex"]
+source_file="res://assets/player/player_modular/tools/iron_tools/iron_axe.png"
+dest_files=["res://.godot/imported/iron_axe.png-6840ab30696907ce3af66f40ca3dab00.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2kxjsnh0mw7c"
-path="res://.godot/imported/Shirt_Green_Idle.png-e29a0823b56bb5205774b951b0cb2813.ctex"
+path="res://.godot/imported/shirt_green_idle.png-4a0e79af7e7341fa8626deefd06e3e9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Idle.png"
-dest_files=["res://.godot/imported/Shirt_Green_Idle.png-e29a0823b56bb5205774b951b0cb2813.ctex"]
+source_file="res://assets/player/player_modular/clothes/shirt_green/shirt_green_idle.png"
+dest_files=["res://.godot/imported/shirt_green_idle.png-4a0e79af7e7341fa8626deefd06e3e9a.ctex"]
 
 [params]
 

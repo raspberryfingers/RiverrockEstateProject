@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpkcuouqibbws"
-path="res://.godot/imported/Medium_Hair_Brown_Roll.png-9e0667fc4492afbbee5b0e7184533c4f.ctex"
+path="res://.godot/imported/medium_hair_brown_roll.png-e29793ee856cf3f3ac359d9ace6e9626.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Roll.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_Roll.png-9e0667fc4492afbbee5b0e7184533c4f.ctex"]
+source_file="res://assets/player/player_modular/hair/medium_hair_brown/medium_hair_brown_roll.png"
+dest_files=["res://.godot/imported/medium_hair_brown_roll.png-e29793ee856cf3f3ac359d9ace6e9626.ctex"]
 
 [params]
 

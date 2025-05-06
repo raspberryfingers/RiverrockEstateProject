@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfwrussxv6hoy"
-path="res://.godot/imported/Pants_Blue_Attack.png-2c4d76acb9fa30533d4995cb60826dda.ctex"
+path="res://.godot/imported/pants_blue_attack.png-3ad11bf1d6145d2902acbdf331b0c48f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Pants_Blue/Pants_Blue_Attack.png"
-dest_files=["res://.godot/imported/Pants_Blue_Attack.png-2c4d76acb9fa30533d4995cb60826dda.ctex"]
+source_file="res://assets/player/player_modular/clothes/pants_blue/pants_blue_attack.png"
+dest_files=["res://.godot/imported/pants_blue_attack.png-3ad11bf1d6145d2902acbdf331b0c48f.ctex"]
 
 [params]
 

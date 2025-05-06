@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3k7ujbbl3c77"
-path="res://.godot/imported/Pants_Blue_Hoe.png-565fa6e9688dc360b6fd4248b6689779.ctex"
+path="res://.godot/imported/pants_blue_hoe.png-edaec610eb78ae4d25b934b9071dfa34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Clothes/Pants_Blue/Pants_Blue_Hoe.png"
-dest_files=["res://.godot/imported/Pants_Blue_Hoe.png-565fa6e9688dc360b6fd4248b6689779.ctex"]
+source_file="res://assets/player/player_modular/clothes/pants_blue/pants_blue_hoe.png"
+dest_files=["res://.godot/imported/pants_blue_hoe.png-edaec610eb78ae4d25b934b9071dfa34.ctex"]
 
 [params]
 

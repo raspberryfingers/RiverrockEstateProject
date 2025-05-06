@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ourag5c35ko0"
-path="res://.godot/imported/Player_Base_Axe.png-fecf2b5ed449683a229f8a876818a1a7.ctex"
+path="res://.godot/imported/player_base_axe.png-2dd33399c734073a32f9cc59779d3a94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player_modular/Player_Base/Player_Base_Axe.png"
-dest_files=["res://.godot/imported/Player_Base_Axe.png-fecf2b5ed449683a229f8a876818a1a7.ctex"]
+source_file="res://assets/player/player_modular/player_base/player_base_axe.png"
+dest_files=["res://.godot/imported/player_base_axe.png-2dd33399c734073a32f9cc59779d3a94.ctex"]
 
 [params]
 
