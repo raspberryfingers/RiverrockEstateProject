@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bto15jm8sw42b"
-path="res://.godot/imported/Skeleton_Swordman.png-5a38d12770a8fa6aa07a4dd0bca870cd.ctex"
+path="res://.godot/imported/skeleton_swordman.png-e56e92c8ee6c727da53b57704276fd91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Skeleton/Skeleton_Swordman.png"
-dest_files=["res://.godot/imported/Skeleton_Swordman.png-5a38d12770a8fa6aa07a4dd0bca870cd.ctex"]
+source_file="res://assets/enemies/skeleton/skeleton_swordman.png"
+dest_files=["res://.godot/imported/skeleton_swordman.png-e56e92c8ee6c727da53b57704276fd91.ctex"]
 
 [params]
 

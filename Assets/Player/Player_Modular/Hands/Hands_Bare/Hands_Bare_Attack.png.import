@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxsnbaydk60mm"
-path="res://.godot/imported/Hands_Bare_Attack.png-b5948d34b1d58ac13ba6a5c30f03a14d.ctex"
+path="res://.godot/imported/Hands_Bare_Attack.png-9b000ad84f3b3578068f749ec9c6c2f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Attack.png"
-dest_files=["res://.godot/imported/Hands_Bare_Attack.png-b5948d34b1d58ac13ba6a5c30f03a14d.ctex"]
+source_file="res://assets/player/player_modular/Hands/Hands_Bare/Hands_Bare_Attack.png"
+dest_files=["res://.godot/imported/Hands_Bare_Attack.png-9b000ad84f3b3578068f749ec9c6c2f8.ctex"]
 
 [params]
 

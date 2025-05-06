@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyx5oo3wb14ei"
-path="res://.godot/imported/Player_Base_Pickaxe.png-39ab4800f472bde69d1757c39d4d327e.ctex"
+path="res://.godot/imported/Player_Base_Pickaxe.png-d883adfde63e58c3dc44f13e4af012eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Player_Base/Player_Base_Pickaxe.png"
-dest_files=["res://.godot/imported/Player_Base_Pickaxe.png-39ab4800f472bde69d1757c39d4d327e.ctex"]
+source_file="res://assets/player/player_modular/Player_Base/Player_Base_Pickaxe.png"
+dest_files=["res://.godot/imported/Player_Base_Pickaxe.png-d883adfde63e58c3dc44f13e4af012eb.ctex"]
 
 [params]
 

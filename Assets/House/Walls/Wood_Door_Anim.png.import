@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://thcfbs4ijeh7"
-path="res://.godot/imported/Wood_Door_Anim.png-b90b43753baf318d3055c1da283c01fc.ctex"
+path="res://.godot/imported/wood_door_anim.png-b99b4394efa862f3643f621d8e1d6637.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Walls/Wood_Door_Anim.png"
-dest_files=["res://.godot/imported/Wood_Door_Anim.png-b90b43753baf318d3055c1da283c01fc.ctex"]
+source_file="res://assets/house/walls/wood_door_anim.png"
+dest_files=["res://.godot/imported/wood_door_anim.png-b99b4394efa862f3643f621d8e1d6637.ctex"]
 
 [params]
 

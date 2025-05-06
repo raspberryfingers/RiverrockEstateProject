@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clixyvgf85ufn"
-path="res://.godot/imported/Medium_Hair_Brown_Axe.png-57b1d42fd3b8e1e14faf390e8c0790cf.ctex"
+path="res://.godot/imported/Medium_Hair_Brown_Axe.png-a525c5a44c1675979012a53ae9a375cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Axe.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_Axe.png-57b1d42fd3b8e1e14faf390e8c0790cf.ctex"]
+source_file="res://assets/player/player_modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Axe.png"
+dest_files=["res://.godot/imported/Medium_Hair_Brown_Axe.png-a525c5a44c1675979012a53ae9a375cd.ctex"]
 
 [params]
 

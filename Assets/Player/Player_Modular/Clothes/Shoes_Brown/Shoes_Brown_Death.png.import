@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5u2mc3krt0x3"
-path="res://.godot/imported/Shoes_Brown_Death.png-16692f882cb31d3cb825c3de0f904c66.ctex"
+path="res://.godot/imported/Shoes_Brown_Death.png-3e421445228f9961d9c36f1d0d741f50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Death.png"
-dest_files=["res://.godot/imported/Shoes_Brown_Death.png-16692f882cb31d3cb825c3de0f904c66.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Shoes_Brown/Shoes_Brown_Death.png"
+dest_files=["res://.godot/imported/Shoes_Brown_Death.png-3e421445228f9961d9c36f1d0d741f50.ctex"]
 
 [params]
 

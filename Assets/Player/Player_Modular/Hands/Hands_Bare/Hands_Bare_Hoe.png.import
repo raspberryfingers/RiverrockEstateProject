@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mi08e2etwpi4"
-path="res://.godot/imported/Hands_Bare_Hoe.png-b57ea5cf6cfc7591ae3f119f8c21a93f.ctex"
+path="res://.godot/imported/Hands_Bare_Hoe.png-ffc90bfdc5333882a29355a3e79f3971.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Hoe.png"
-dest_files=["res://.godot/imported/Hands_Bare_Hoe.png-b57ea5cf6cfc7591ae3f119f8c21a93f.ctex"]
+source_file="res://assets/player/player_modular/Hands/Hands_Bare/Hands_Bare_Hoe.png"
+dest_files=["res://.godot/imported/Hands_Bare_Hoe.png-ffc90bfdc5333882a29355a3e79f3971.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sk4aun1dvv41"
-path="res://.godot/imported/Shirt_Green_Axe.png-d9a107838989382ff0a594b27477b60f.ctex"
+path="res://.godot/imported/Shirt_Green_Axe.png-b747e245c5e746b4a9df8c4fbb7c9dbd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Axe.png"
-dest_files=["res://.godot/imported/Shirt_Green_Axe.png-d9a107838989382ff0a594b27477b60f.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Axe.png"
+dest_files=["res://.godot/imported/Shirt_Green_Axe.png-b747e245c5e746b4a9df8c4fbb7c9dbd.ctex"]
 
 [params]
 

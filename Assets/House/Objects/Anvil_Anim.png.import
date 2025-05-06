@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyvwbcqhmxf4v"
-path="res://.godot/imported/Anvil_Anim.png-497284854e601417c2f1d9c9558a04df.ctex"
+path="res://.godot/imported/anvil_anim.png-173726df9d9bc5b21321d4502936163c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Objects/Anvil_Anim.png"
-dest_files=["res://.godot/imported/Anvil_Anim.png-497284854e601417c2f1d9c9558a04df.ctex"]
+source_file="res://assets/house/objects/anvil_anim.png"
+dest_files=["res://.godot/imported/anvil_anim.png-173726df9d9bc5b21321d4502936163c.ctex"]
 
 [params]
 

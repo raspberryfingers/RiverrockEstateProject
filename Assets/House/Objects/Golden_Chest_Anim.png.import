@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kua4nnbm7sve"
-path="res://.godot/imported/Golden_Chest_Anim.png-5c6fd9a99c5c7af9de9aae16277271fc.ctex"
+path="res://.godot/imported/golden_chest_anim.png-2f639d05bc1907a62f6a4960b2897f36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Objects/Golden_Chest_Anim.png"
-dest_files=["res://.godot/imported/Golden_Chest_Anim.png-5c6fd9a99c5c7af9de9aae16277271fc.ctex"]
+source_file="res://assets/house/objects/golden_chest_anim.png"
+dest_files=["res://.godot/imported/golden_chest_anim.png-2f639d05bc1907a62f6a4960b2897f36.ctex"]
 
 [params]
 

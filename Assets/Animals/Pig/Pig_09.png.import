@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkjtpaluxb45m"
-path="res://.godot/imported/Pig_09.png-4a499fd2545a0aafa98498b0f123f39c.ctex"
+path="res://.godot/imported/pig_09.png-7e6a06a7b2b5082f96a5b1a299976f1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Animals/Pig/Pig_09.png"
-dest_files=["res://.godot/imported/Pig_09.png-4a499fd2545a0aafa98498b0f123f39c.ctex"]
+source_file="res://assets/animals/pig/pig_09.png"
+dest_files=["res://.godot/imported/pig_09.png-7e6a06a7b2b5082f96a5b1a299976f1c.ctex"]
 
 [params]
 

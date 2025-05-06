@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b02jr8u58m10m"
-path="res://.godot/imported/Lantern_Torch.png-9f14d42b1559e3c5db111728d71b4ff1.ctex"
+path="res://.godot/imported/lantern_torch.png-e9b6400ffdf39405e1daf3c8a12f1733.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Other/Lantern_Torch.png"
-dest_files=["res://.godot/imported/Lantern_Torch.png-9f14d42b1559e3c5db111728d71b4ff1.ctex"]
+source_file="res://assets/other/lantern_torch.png"
+dest_files=["res://.godot/imported/lantern_torch.png-e9b6400ffdf39405e1daf3c8a12f1733.ctex"]
 
 [params]
 

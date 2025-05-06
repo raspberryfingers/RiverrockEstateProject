@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnonle2l6ptin"
-path="res://.godot/imported/Grapes_Bower.png-3d748efdc40804733d93963bbcec7b43.ctex"
+path="res://.godot/imported/grapes_bower.png-db5300a59e56cdc786bd9e98092a0b5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Crops/Grapes_Bower.png"
-dest_files=["res://.godot/imported/Grapes_Bower.png-3d748efdc40804733d93963bbcec7b43.ctex"]
+source_file="res://assets/crops/grapes_bower.png"
+dest_files=["res://.godot/imported/grapes_bower.png-db5300a59e56cdc786bd9e98092a0b5b.ctex"]
 
 [params]
 

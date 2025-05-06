@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwixs2k8k1013"
-path="res://.godot/imported/Shoes_Brown_Horse.png-13146392b06efa22a1d13ffbdf2d6dbf.ctex"
+path="res://.godot/imported/Shoes_Brown_Horse.png-70db0685ff7c490f026618b536ac486e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Horse.png"
-dest_files=["res://.godot/imported/Shoes_Brown_Horse.png-13146392b06efa22a1d13ffbdf2d6dbf.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Shoes_Brown/Shoes_Brown_Horse.png"
+dest_files=["res://.godot/imported/Shoes_Brown_Horse.png-70db0685ff7c490f026618b536ac486e.ctex"]
 
 [params]
 

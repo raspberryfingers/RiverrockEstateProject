@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buped4ufylnsu"
-path="res://.godot/imported/Bow_Stages.png-e4bb3b99e01c36c02bd00ad7fa9e7fe3.ctex"
+path="res://.godot/imported/bow_stages.png-1ef0f42ce87cb41359c2504edf76c32e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Other/Bow_Stages.png"
-dest_files=["res://.godot/imported/Bow_Stages.png-e4bb3b99e01c36c02bd00ad7fa9e7fe3.ctex"]
+source_file="res://assets/other/bow_stages.png"
+dest_files=["res://.godot/imported/bow_stages.png-1ef0f42ce87cb41359c2504edf76c32e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://34xye5ri5443"
-path="res://.godot/imported/Shirt_Green_Bow.png-2520d9c6eb40495f905c3ed87545c5ac.ctex"
+path="res://.godot/imported/Shirt_Green_Bow.png-678a0d57f5bb43087c4c3175947b5af3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Bow.png"
-dest_files=["res://.godot/imported/Shirt_Green_Bow.png-2520d9c6eb40495f905c3ed87545c5ac.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Bow.png"
+dest_files=["res://.godot/imported/Shirt_Green_Bow.png-678a0d57f5bb43087c4c3175947b5af3.ctex"]
 
 [params]
 

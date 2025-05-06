@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tsyly3rjk5up"
-path="res://.godot/imported/smoke_3_Anim.png-9b83b505711cb0bb2ef0a73ee06ee8db.ctex"
+path="res://.godot/imported/smoke_3_anim.png-67f53a567974c1b8252f3c674d370afe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Walls/smoke_3_Anim.png"
-dest_files=["res://.godot/imported/smoke_3_Anim.png-9b83b505711cb0bb2ef0a73ee06ee8db.ctex"]
+source_file="res://assets/house/walls/smoke_3_anim.png"
+dest_files=["res://.godot/imported/smoke_3_anim.png-67f53a567974c1b8252f3c674d370afe.ctex"]
 
 [params]
 

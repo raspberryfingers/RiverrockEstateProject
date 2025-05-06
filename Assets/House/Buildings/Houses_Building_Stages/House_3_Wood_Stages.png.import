@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg3h8b5fsxsjw"
-path="res://.godot/imported/House_3_Wood_Stages.png-fa31c0e4aa8801928e97a75b8dc48779.ctex"
+path="res://.godot/imported/house_3_wood_stages.png-24461708bbd7c211a6cc117464e79812.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Buildings/Houses_Building_Stages/House_3_Wood_Stages.png"
-dest_files=["res://.godot/imported/House_3_Wood_Stages.png-fa31c0e4aa8801928e97a75b8dc48779.ctex"]
+source_file="res://assets/house/buildings/houses_building_stages/house_3_wood_stages.png"
+dest_files=["res://.godot/imported/house_3_wood_stages.png-24461708bbd7c211a6cc117464e79812.ctex"]
 
 [params]
 

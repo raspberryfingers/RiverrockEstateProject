@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk6ybi2fhnmx6"
-path="res://.godot/imported/Windows.png-5edc40e1265962ff6ce3772b7b6d0538.ctex"
+path="res://.godot/imported/windows.png-27946c15cdcd0792a47eb33df35911fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Buildings/Windows.png"
-dest_files=["res://.godot/imported/Windows.png-5edc40e1265962ff6ce3772b7b6d0538.ctex"]
+source_file="res://assets/house/buildings/windows.png"
+dest_files=["res://.godot/imported/windows.png-27946c15cdcd0792a47eb33df35911fb.ctex"]
 
 [params]
 

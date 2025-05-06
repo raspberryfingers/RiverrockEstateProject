@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://myq4wywm4ll"
-path="res://.godot/imported/Stone_Cliff_1_Tile.png-717e7d516071d8a2c8659094dce100eb.ctex"
+path="res://.godot/imported/Stone_Cliff_1_Tile.png-0599a5065730fec1978b35e908177b18.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/Cliff/Stone_Cliff_1_Tile.png"
-dest_files=["res://.godot/imported/Stone_Cliff_1_Tile.png-717e7d516071d8a2c8659094dce100eb.ctex"]
+source_file="res://assets/tiles/cliff/Stone_Cliff_1_Tile.png"
+dest_files=["res://.godot/imported/Stone_Cliff_1_Tile.png-0599a5065730fec1978b35e908177b18.ctex"]
 
 [params]
 

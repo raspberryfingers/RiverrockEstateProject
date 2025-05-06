@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://risvr1rmchoh"
-path="res://.godot/imported/Water_Middle_Anim_2.png-d80082ed774d8882f8710538a989d8b6.ctex"
+path="res://.godot/imported/Water_Middle_Anim_2.png-33cfc9a41b65865cbc19e364bd390064.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/Water/Water_Middle_Anim_2.png"
-dest_files=["res://.godot/imported/Water_Middle_Anim_2.png-d80082ed774d8882f8710538a989d8b6.ctex"]
+source_file="res://assets/tiles/water/Water_Middle_Anim_2.png"
+dest_files=["res://.godot/imported/Water_Middle_Anim_2.png-33cfc9a41b65865cbc19e364bd390064.ctex"]
 
 [params]
 

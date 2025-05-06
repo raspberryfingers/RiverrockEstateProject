@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vyvvxispp2ri"
-path="res://.godot/imported/Horse_Stable_5.png-8f89a5875f0605fe616bf4ed0c168bf9.ctex"
+path="res://.godot/imported/horse_stable_5.png-48727882ce0007effe0dffe2015a0cb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Buildings/Special_Buildings/Stable/Horse_Stable_5.png"
-dest_files=["res://.godot/imported/Horse_Stable_5.png-8f89a5875f0605fe616bf4ed0c168bf9.ctex"]
+source_file="res://assets/house/buildings/special_buildings/stable/horse_stable_5.png"
+dest_files=["res://.godot/imported/horse_stable_5.png-48727882ce0007effe0dffe2015a0cb6.ctex"]
 
 [params]
 

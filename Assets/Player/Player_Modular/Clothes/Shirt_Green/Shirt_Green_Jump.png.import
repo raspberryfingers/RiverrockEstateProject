@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ew7f1oyo5vih"
-path="res://.godot/imported/Shirt_Green_Jump.png-63c7c472b2f698860d3dc25f4712a5a5.ctex"
+path="res://.godot/imported/Shirt_Green_Jump.png-db58de8e129da2e0b0b3c5a457edfb2a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Jump.png"
-dest_files=["res://.godot/imported/Shirt_Green_Jump.png-63c7c472b2f698860d3dc25f4712a5a5.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Jump.png"
+dest_files=["res://.godot/imported/Shirt_Green_Jump.png-db58de8e129da2e0b0b3c5a457edfb2a.ctex"]
 
 [params]
 

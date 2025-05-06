@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ova4x3xauet7"
-path="res://.godot/imported/Peach_Tree.png-2d66294d90a57853ab91b71fdaecd2e3.ctex"
+path="res://.godot/imported/peach_tree.png-03023b27b4d822765fe439f5521e36c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Crops/Peach_Tree.png"
-dest_files=["res://.godot/imported/Peach_Tree.png-2d66294d90a57853ab91b71fdaecd2e3.ctex"]
+source_file="res://assets/crops/peach_tree.png"
+dest_files=["res://.godot/imported/peach_tree.png-03023b27b4d822765fe439f5521e36c1.ctex"]
 
 [params]
 

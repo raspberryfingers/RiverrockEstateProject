@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv1poirdo6gig"
-path="res://.godot/imported/Medium_Hair_Brown_Hoe.png-62d44d2518e34b9b47bd86d0913fe6b1.ctex"
+path="res://.godot/imported/Medium_Hair_Brown_Hoe.png-0e2fc7e4414614b5634797f6f27e7111.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Hoe.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_Hoe.png-62d44d2518e34b9b47bd86d0913fe6b1.ctex"]
+source_file="res://assets/player/player_modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Hoe.png"
+dest_files=["res://.godot/imported/Medium_Hair_Brown_Hoe.png-0e2fc7e4414614b5634797f6f27e7111.ctex"]
 
 [params]
 

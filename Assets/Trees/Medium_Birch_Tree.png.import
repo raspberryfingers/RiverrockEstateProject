@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bat061fty5w2t"
-path="res://.godot/imported/Medium_Birch_Tree.png-80983408c0bc13fc6c615ab8edfcda46.ctex"
+path="res://.godot/imported/Medium_Birch_Tree.png-98558f328ce107788a9574e5493c16e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Trees/Medium_Birch_Tree.png"
-dest_files=["res://.godot/imported/Medium_Birch_Tree.png-80983408c0bc13fc6c615ab8edfcda46.ctex"]
+source_file="res://assets/trees/Medium_Birch_Tree.png"
+dest_files=["res://.godot/imported/Medium_Birch_Tree.png-98558f328ce107788a9574e5493c16e8.ctex"]
 
 [params]
 

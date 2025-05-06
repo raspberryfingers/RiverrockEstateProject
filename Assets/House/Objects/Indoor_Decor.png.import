@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b05ptso1duejt"
-path="res://.godot/imported/Indoor_Decor.png-54ddbb4b700c68f4b800941553620a66.ctex"
+path="res://.godot/imported/indoor_decor.png-0b203e42ef9b22bedf68d091f776cd54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Objects/Indoor_Decor.png"
-dest_files=["res://.godot/imported/Indoor_Decor.png-54ddbb4b700c68f4b800941553620a66.ctex"]
+source_file="res://assets/house/objects/indoor_decor.png"
+dest_files=["res://.godot/imported/indoor_decor.png-0b203e42ef9b22bedf68d091f776cd54.ctex"]
 
 [params]
 

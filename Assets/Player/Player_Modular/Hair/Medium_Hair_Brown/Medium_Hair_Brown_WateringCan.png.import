@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buvum33q2kaa8"
-path="res://.godot/imported/Medium_Hair_Brown_WateringCan.png-77044c8ea557968652254e0a9e5ae4b7.ctex"
+path="res://.godot/imported/Medium_Hair_Brown_WateringCan.png-1433e51a0768957c49ae3c16ced288ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_WateringCan.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_WateringCan.png-77044c8ea557968652254e0a9e5ae4b7.ctex"]
+source_file="res://assets/player/player_modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_WateringCan.png"
+dest_files=["res://.godot/imported/Medium_Hair_Brown_WateringCan.png-1433e51a0768957c49ae3c16ced288ac.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://84ymqntnctwf"
-path="res://.godot/imported/Shirt_Green_Pickaxe.png-e3bfcfa6576f09a5d4832b753ca5e8b6.ctex"
+path="res://.godot/imported/Shirt_Green_Pickaxe.png-b91e4b94af8ad7cce43d250331068023.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Pickaxe.png"
-dest_files=["res://.godot/imported/Shirt_Green_Pickaxe.png-e3bfcfa6576f09a5d4832b753ca5e8b6.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Shirt_Green/Shirt_Green_Pickaxe.png"
+dest_files=["res://.godot/imported/Shirt_Green_Pickaxe.png-b91e4b94af8ad7cce43d250331068023.ctex"]
 
 [params]
 

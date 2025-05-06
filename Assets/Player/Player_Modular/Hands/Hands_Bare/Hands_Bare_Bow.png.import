@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3lu80yuior2d"
-path="res://.godot/imported/Hands_Bare_Bow.png-d2a7f266194454f74ee445df6a2150de.ctex"
+path="res://.godot/imported/Hands_Bare_Bow.png-09f46c81298e7885ed5d2011460d0299.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Bow.png"
-dest_files=["res://.godot/imported/Hands_Bare_Bow.png-d2a7f266194454f74ee445df6a2150de.ctex"]
+source_file="res://assets/player/player_modular/Hands/Hands_Bare/Hands_Bare_Bow.png"
+dest_files=["res://.godot/imported/Hands_Bare_Bow.png-09f46c81298e7885ed5d2011460d0299.ctex"]
 
 [params]
 

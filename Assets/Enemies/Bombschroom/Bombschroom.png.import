@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8mk52yldpj3j"
-path="res://.godot/imported/Bombschroom.png-8c8c21bc38c7eb7b16eb81e289ae4c76.ctex"
+path="res://.godot/imported/bombschroom.png-39e4975bc60df12ab5330bbd60e31d95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Bombschroom/Bombschroom.png"
-dest_files=["res://.godot/imported/Bombschroom.png-8c8c21bc38c7eb7b16eb81e289ae4c76.ctex"]
+source_file="res://assets/enemies/bombschroom/bombschroom.png"
+dest_files=["res://.godot/imported/bombschroom.png-39e4975bc60df12ab5330bbd60e31d95.ctex"]
 
 [params]
 

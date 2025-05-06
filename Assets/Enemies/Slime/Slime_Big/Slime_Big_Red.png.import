@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dicvcxelw84iq"
-path="res://.godot/imported/Slime_Big_Red.png-694243d7d6c24052be8ec9e09c5b6822.ctex"
+path="res://.godot/imported/slime_big_red.png-47b4a710ccf0a9f0a193e4415964b6f3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Slime/Slime_Big/Slime_Big_Red.png"
-dest_files=["res://.godot/imported/Slime_Big_Red.png-694243d7d6c24052be8ec9e09c5b6822.ctex"]
+source_file="res://assets/enemies/slime/slime_big/slime_big_red.png"
+dest_files=["res://.godot/imported/slime_big_red.png-47b4a710ccf0a9f0a193e4415964b6f3.ctex"]
 
 [params]
 

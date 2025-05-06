@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fcuw8gvqblfg"
-path="res://.godot/imported/Kapybara_Bubbles.png-10ff2f4ffda6e5f1db72b95c6de07bbf.ctex"
+path="res://.godot/imported/kapybara_bubbles.png-d07481b6b6a36c128c3406cdd7251082.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Animals/Kapybara/Kapybara_Bubbles.png"
-dest_files=["res://.godot/imported/Kapybara_Bubbles.png-10ff2f4ffda6e5f1db72b95c6de07bbf.ctex"]
+source_file="res://assets/animals/kapybara/kapybara_bubbles.png"
+dest_files=["res://.godot/imported/kapybara_bubbles.png-d07481b6b6a36c128c3406cdd7251082.ctex"]
 
 [params]
 

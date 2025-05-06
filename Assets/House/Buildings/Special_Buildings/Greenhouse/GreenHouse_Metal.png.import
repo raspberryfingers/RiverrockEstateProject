@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q6f1dlj8vxvu"
-path="res://.godot/imported/GreenHouse_Metal.png-f97e7db903696705a122b25ff5d389b1.ctex"
+path="res://.godot/imported/greenhouse_metal.png-1987b5687dcba39fc37a63250a264b3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Buildings/Special_Buildings/Greenhouse/GreenHouse_Metal.png"
-dest_files=["res://.godot/imported/GreenHouse_Metal.png-f97e7db903696705a122b25ff5d389b1.ctex"]
+source_file="res://assets/house/buildings/special_buildings/greenhouse/greenhouse_metal.png"
+dest_files=["res://.godot/imported/greenhouse_metal.png-1987b5687dcba39fc37a63250a264b3b.ctex"]
 
 [params]
 

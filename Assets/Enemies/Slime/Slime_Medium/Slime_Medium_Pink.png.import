@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdwqmqmlooa1b"
-path="res://.godot/imported/Slime_Medium_Pink.png-9be82229cb8c695fa86eba102ebb1f35.ctex"
+path="res://.godot/imported/slime_medium_pink.png-1e57a5b8039395a134869231775cdc20.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Slime/Slime_Medium/Slime_Medium_Pink.png"
-dest_files=["res://.godot/imported/Slime_Medium_Pink.png-9be82229cb8c695fa86eba102ebb1f35.ctex"]
+source_file="res://assets/enemies/slime/slime_medium/slime_medium_pink.png"
+dest_files=["res://.godot/imported/slime_medium_pink.png-1e57a5b8039395a134869231775cdc20.ctex"]
 
 [params]
 

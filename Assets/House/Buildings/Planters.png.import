@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://iysna1f8d5es"
-path="res://.godot/imported/Planters.png-c7507c1f9b2fbfa671c22149a0928138.ctex"
+path="res://.godot/imported/planters.png-7533d74ec06d8c443165a4fb84d4612a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Buildings/Planters.png"
-dest_files=["res://.godot/imported/Planters.png-c7507c1f9b2fbfa671c22149a0928138.ctex"]
+source_file="res://assets/house/buildings/planters.png"
+dest_files=["res://.godot/imported/planters.png-7533d74ec06d8c443165a4fb84d4612a.ctex"]
 
 [params]
 

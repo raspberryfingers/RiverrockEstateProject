@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl73lckxhqsdn"
-path="res://.godot/imported/Skeleton_Bowman.png-ecc70e46db05f22030a129adfa9c2e1f.ctex"
+path="res://.godot/imported/skeleton_bowman.png-09a771f426f4363dc6f516b0dab110d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Skeleton/Skeleton_Bowman/Merged/Skeleton_Bowman.png"
-dest_files=["res://.godot/imported/Skeleton_Bowman.png-ecc70e46db05f22030a129adfa9c2e1f.ctex"]
+source_file="res://assets/enemies/skeleton/skeleton_bowman/merged/skeleton_bowman.png"
+dest_files=["res://.godot/imported/skeleton_bowman.png-09a771f426f4363dc6f516b0dab110d1.ctex"]
 
 [params]
 

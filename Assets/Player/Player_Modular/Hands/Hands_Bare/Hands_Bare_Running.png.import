@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkw5mmk4xa36x"
-path="res://.godot/imported/Hands_Bare_Running.png-b97126607cf577fd4131781e949eb5ba.ctex"
+path="res://.godot/imported/Hands_Bare_Running.png-9e5d3a7364053abbd1ed443f31a893c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Running.png"
-dest_files=["res://.godot/imported/Hands_Bare_Running.png-b97126607cf577fd4131781e949eb5ba.ctex"]
+source_file="res://assets/player/player_modular/Hands/Hands_Bare/Hands_Bare_Running.png"
+dest_files=["res://.godot/imported/Hands_Bare_Running.png-9e5d3a7364053abbd1ed443f31a893c8.ctex"]
 
 [params]
 

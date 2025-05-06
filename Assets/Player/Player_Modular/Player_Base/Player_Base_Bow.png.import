@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqmqkni8tauia"
-path="res://.godot/imported/Player_Base_Bow.png-c8a80473dbcb9da800d6f351de5b90dc.ctex"
+path="res://.godot/imported/Player_Base_Bow.png-d769c4bb7b38a0b985f8659e6c2cc620.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Player_Base/Player_Base_Bow.png"
-dest_files=["res://.godot/imported/Player_Base_Bow.png-c8a80473dbcb9da800d6f351de5b90dc.ctex"]
+source_file="res://assets/player/player_modular/Player_Base/Player_Base_Bow.png"
+dest_files=["res://.godot/imported/Player_Base_Bow.png-d769c4bb7b38a0b985f8659e6c2cc620.ctex"]
 
 [params]
 

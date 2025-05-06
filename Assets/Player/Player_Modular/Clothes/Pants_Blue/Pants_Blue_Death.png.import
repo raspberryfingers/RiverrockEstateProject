@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf8sft868bbf8"
-path="res://.godot/imported/Pants_Blue_Death.png-e622dee6238502b9a716b7738790b237.ctex"
+path="res://.godot/imported/Pants_Blue_Death.png-8780d4691341063d8a7c2f30f41a5077.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Death.png"
-dest_files=["res://.godot/imported/Pants_Blue_Death.png-e622dee6238502b9a716b7738790b237.ctex"]
+source_file="res://assets/player/player_modular/Clothes/Pants_Blue/Pants_Blue_Death.png"
+dest_files=["res://.godot/imported/Pants_Blue_Death.png-8780d4691341063d8a7c2f30f41a5077.ctex"]
 
 [params]
 

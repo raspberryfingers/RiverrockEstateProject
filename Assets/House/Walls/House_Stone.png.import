@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3aid1y0clp8k"
-path="res://.godot/imported/House_Stone.png-42c5e0cda6e3906fa8f5d87f2a129663.ctex"
+path="res://.godot/imported/house_stone.png-a1eab14718892e2f3632c8d9ab3f4eda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/House/Walls/House_Stone.png"
-dest_files=["res://.godot/imported/House_Stone.png-42c5e0cda6e3906fa8f5d87f2a129663.ctex"]
+source_file="res://assets/house/walls/house_stone.png"
+dest_files=["res://.godot/imported/house_stone.png-a1eab14718892e2f3632c8d9ab3f4eda.ctex"]
 
 [params]
 
