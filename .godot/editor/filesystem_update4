@@ -1,0 +1,11 @@
+res://scenes/tests/test_scene_tilemap.tscn
+res://tilesets/game_tile_set.tres
+res://scenes/tests/test_scene_default.tscn
+res://scenes/characters/player/player.tscn
+res://scenes/tests/test_scene_player.tscn
+res://scripts/state_machine/node_state.gd
+res://scripts/state_machine/node_state_machine.gd
+res://scenes/characters/player/idle_state.gd
+res://scenes/characters/player/walk_state.gd
+res://scripts/game_input_events.gd
+res://scenes/characters/player/player.gd
