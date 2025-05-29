@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=63 format=3 uid="uid://8o0qchrt0dtl"]
+[gd_resource type="TileSet" load_steps=65 format=3 uid="uid://8o0qchrt0dtl"]
 
 [ext_resource type="Texture2D" uid="uid://csg42baaseqoc" path="res://assets/tiles/water/fish_animated_tile.png" id="1_0x5b7"]
 [ext_resource type="Texture2D" uid="uid://dc70an0341d70" path="res://assets/tiles/farm_land/farm_land_tile.png" id="1_de1jd"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://c833xsjj8rqux" path="res://assets/tiles/water/water_stone_tile_2.png" id="3_1miop"]
 [ext_resource type="Texture2D" uid="uid://dks0jhkwgs3ma" path="res://assets/tiles/water/water_middle.png" id="3_v3qah"]
 [ext_resource type="Texture2D" uid="uid://cqwnp0cetfr2g" path="res://assets/tiles/water/water_stone_tile_3.png" id="4_oja6m"]
+[ext_resource type="PackedScene" uid="uid://b3ki1g5i3a87d" path="res://scenes/houses/large_house.tscn" id="4_swux7"]
 [ext_resource type="Texture2D" uid="uid://b16tuq0a4nkk7" path="res://assets/tiles/water/water_stone_tile_4.png" id="5_hrq3x"]
 [ext_resource type="Texture2D" uid="uid://b2etjb2jpnxem" path="res://assets/tiles/water/water_tile_1.png" id="6_w0677"]
 [ext_resource type="Texture2D" uid="uid://d01rv73tavsvk" path="res://assets/tiles/water/water_tile_2.png" id="7_0hlvd"]
@@ -227,6 +228,9 @@ texture = ExtResource("1_0x5b7")
 0:0/animation_frame_14/duration = 0.2
 0:0/animation_frame_15/duration = 0.2
 0:0/0 = 0
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_7rnd7"]
+scenes/2/scene = ExtResource("4_swux7")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pjeac"]
 texture = ExtResource("2_ep10f")
@@ -2140,3 +2144,4 @@ sources/2 = SubResource("TileSetAtlasSource_u4c1t")
 sources/5 = SubResource("TileSetAtlasSource_u8co3")
 sources/6 = SubResource("TileSetAtlasSource_57rvn")
 sources/8 = SubResource("TileSetAtlasSource_qtinh")
+sources/11 = SubResource("TileSetScenesCollectionSource_7rnd7")

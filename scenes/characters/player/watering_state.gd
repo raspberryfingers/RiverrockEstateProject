@@ -18,19 +18,14 @@ func _on_next_transitions() -> void:
 
 func _on_enter() -> void:
 	if player.player_direction == Vector2.UP:
-		animated_sprite_2d.flip_h=false
 		animated_sprite_2d.play("watering_back")
 	elif player.player_direction == Vector2.RIGHT:
-		animated_sprite_2d.flip_h=false
 		animated_sprite_2d.play("watering_left")
 	elif player.player_direction == Vector2.DOWN: 
-		animated_sprite_2d.flip_h=false
 		animated_sprite_2d.play("watering_front")
 	elif player.player_direction == Vector2.LEFT: 
-		animated_sprite_2d.flip_h=true
 		animated_sprite_2d.play("watering_left")
 	else: 
-		animated_sprite_2d.flip_h=false
 		animated_sprite_2d.play("watering_front")
 
 
