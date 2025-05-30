@@ -1,6 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkjwsihq3kil1"]
+[gd_scene load_steps=9 format=3 uid="uid://bkjwsihq3kil1"]
 
+[ext_resource type="Material" uid="uid://cs0vwsev7tqx6" path="res://scenes/objects/trees/small_tree_shader_object.tres" id="1_f26yt"]
 [ext_resource type="Texture2D" uid="uid://blbdy6hoq2rqc" path="res://assets/trees/small_oak_tree.png" id="1_x7dvc"]
+[ext_resource type="Script" path="res://scenes/objects/trees/small_tree.gd" id="2_6dmol"]
+[ext_resource type="PackedScene" uid="uid://dc2d41jvhw08i" path="res://scenes/components/hurt_component.tscn" id="2_qahx4"]
+[ext_resource type="PackedScene" uid="uid://dwvmbu0r50nqm" path="res://scenes/components/damage_component.tscn" id="3_cuix0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rs461"]
 atlas = ExtResource("1_x7dvc")
@@ -10,12 +14,29 @@ region = Rect2(40, 32, 16, 24)
 radius = 3.0
 height = 6.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vr6w3"]
+size = Vector2(6, 12)
+
 [node name="SmallTree" type="Sprite2D"]
+material = ExtResource("1_f26yt")
 position = Vector2(0, -4)
 texture = SubResource("AtlasTexture_rs461")
+script = ExtResource("2_6dmol")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(0, 1)
 shape = SubResource("CapsuleShape2D_5b1os")
+
+[node name="HurtComponent" parent="." instance=ExtResource("2_qahx4")]
+position = Vector2(-5, -1)
+
+[node name="HurtComponentCollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
+position = Vector2(5, -1)
+shape = SubResource("RectangleShape2D_vr6w3")
+debug_color = Color(0.630364, 0.529586, 0, 0.42)
+
+[node name="DamageComponent" parent="." instance=ExtResource("3_cuix0")]
+position = Vector2(-25, -2)
+max_damage = 3

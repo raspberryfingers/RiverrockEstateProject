@@ -20,9 +20,10 @@ layer_0/tile_data = PackedInt32Array(1441828, 65566, 4, 1376292, 30, 1, 1310756,
 [node name="Trees" type="TileMap" parent="GameTilemap"]
 tile_set = ExtResource("1_py4nd")
 format = 2
-layer_0/tile_data = PackedInt32Array(720909, 11, 65536, 786452, 11, 65536, 589841, 11, 65536)
+layer_0/tile_data = PackedInt32Array(720909, 11, 65536, 786452, 11, 65536, 589841, 11, 65536, 589847, 11, 262144, 983051, 11, 262144, 589836, 11, 196608, 786447, 11, 196608, 589849, 11, 196608, 917512, 11, 196608, 393233, 11, 196608, 983049, 11, 65536, 655371, 11, 65536, 720920, 11, 65536, 589839, 11, 262144)
 
 [node name="Player" parent="." instance=ExtResource("2_ws0wg")]
 position = Vector2(419, 246)
+current_tool = 1
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
