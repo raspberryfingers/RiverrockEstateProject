@@ -1,5 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://bj2j5ah5bw8dw"]
+[gd_scene load_steps=9 format=3 uid="uid://bj2j5ah5bw8dw"]
 
+[ext_resource type="Material" uid="uid://cs0vwsev7tqx6" path="res://scenes/objects/trees/small_tree_shader_object.tres" id="1_uo4sh"]
 [ext_resource type="Texture2D" uid="uid://bc67gi4o1arry" path="res://assets/trees/medium_oak_tree.png" id="1_vw4pn"]
 [ext_resource type="Script" path="res://scenes/objects/trees/medium_tree.gd" id="2_4mjcj"]
 [ext_resource type="PackedScene" uid="uid://dc2d41jvhw08i" path="res://scenes/components/hurt_component.tscn" id="2_4w8ib"]
@@ -17,6 +18,7 @@ height = 10.0
 size = Vector2(6, 12)
 
 [node name="MediumTree" type="Sprite2D"]
+material = ExtResource("1_uo4sh")
 position = Vector2(0, -12)
 texture = SubResource("AtlasTexture_rsexr")
 script = ExtResource("2_4mjcj")

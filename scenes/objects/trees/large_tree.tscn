@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://cgh7eg1vj68ro"]
+[gd_scene load_steps=9 format=3 uid="uid://cgh7eg1vj68ro"]
 
 [ext_resource type="Texture2D" uid="uid://30fx0175ri33" path="res://assets/trees/big_oak_tree.png" id="1_4dpld"]
+[ext_resource type="Material" uid="uid://cs0vwsev7tqx6" path="res://scenes/objects/trees/small_tree_shader_object.tres" id="1_pxr1l"]
 [ext_resource type="PackedScene" uid="uid://dc2d41jvhw08i" path="res://scenes/components/hurt_component.tscn" id="2_10uwt"]
 [ext_resource type="Script" path="res://scenes/objects/trees/large_tree.gd" id="2_15wbu"]
 [ext_resource type="PackedScene" uid="uid://dwvmbu0r50nqm" path="res://scenes/components/damage_component.tscn" id="3_8gsib"]
@@ -10,13 +11,14 @@ atlas = ExtResource("1_4dpld")
 region = Rect2(72, 8, 48, 72)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_y4qi0"]
-radius = 7.0
+radius = 6.0
 height = 16.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vyhso"]
 size = Vector2(11, 16)
 
 [node name="LargeTree" type="Sprite2D"]
+material = ExtResource("1_pxr1l")
 position = Vector2(0, -20)
 texture = SubResource("AtlasTexture_0daff")
 script = ExtResource("2_15wbu")
@@ -24,7 +26,7 @@ script = ExtResource("2_15wbu")
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(0, 12)
+position = Vector2(0, 8)
 shape = SubResource("CapsuleShape2D_y4qi0")
 
 [node name="HurtComponent" parent="." instance=ExtResource("2_10uwt")]
