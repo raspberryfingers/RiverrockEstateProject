@@ -730,6 +730,7 @@ height = 20.5935
 radius = 4.0
 
 [node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("animated_sprite_2d")]
+y_sort_enabled = true
 collision_layer = 2
 script = ExtResource("1_qcv3q")
 current_tool = 2
