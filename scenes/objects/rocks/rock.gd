@@ -25,5 +25,3 @@ func add_stone_scene() -> void:
 	var stone_instance = stone_scene.instantiate() as Node2D
 	stone_instance.global_position = global_position
 	get_parent().add_child(stone_instance)
-
-

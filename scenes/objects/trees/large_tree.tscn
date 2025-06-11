@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://30fx0175ri33" path="res://assets/trees/big_oak_tree.png" id="1_4dpld"]
 [ext_resource type="Material" uid="uid://cs0vwsev7tqx6" path="res://scenes/objects/trees/small_tree_shader_object.tres" id="1_pxr1l"]
 [ext_resource type="PackedScene" uid="uid://dc2d41jvhw08i" path="res://scenes/components/hurt_component.tscn" id="2_10uwt"]
-[ext_resource type="Script" path="res://scenes/objects/trees/large_tree.gd" id="2_15wbu"]
+[ext_resource type="Script" uid="uid://yxyf248lpg0a" path="res://scenes/objects/trees/large_tree.gd" id="2_15wbu"]
 [ext_resource type="PackedScene" uid="uid://dwvmbu0r50nqm" path="res://scenes/components/damage_component.tscn" id="3_8gsib"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0daff"]

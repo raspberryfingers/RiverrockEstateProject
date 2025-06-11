@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://djsxuar24hsc4" path="res://assets/outdoor_decoration/outdoor_decor_animations/rock_animations/rock_13_anim.png" id="1_4ti75"]
 [ext_resource type="Material" uid="uid://cs0vwsev7tqx6" path="res://scenes/objects/trees/small_tree_shader_object.tres" id="1_sc2yy"]
-[ext_resource type="Script" path="res://scenes/objects/rocks/rock.gd" id="2_4gech"]
+[ext_resource type="Script" uid="uid://bsccewrcwqbrs" path="res://scenes/objects/rocks/rock.gd" id="2_4gech"]
 [ext_resource type="PackedScene" uid="uid://dc2d41jvhw08i" path="res://scenes/components/hurt_component.tscn" id="3_mqr7v"]
 [ext_resource type="PackedScene" uid="uid://dwvmbu0r50nqm" path="res://scenes/components/damage_component.tscn" id="4_1y665"]
 

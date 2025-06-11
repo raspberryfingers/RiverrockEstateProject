@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://cf3jmy7rqobi0"]
 
-[ext_resource type="Script" path="res://scenes/houses/door.gd" id="1_oxin5"]
+[ext_resource type="Script" uid="uid://05xhhkmbnwfw" path="res://scenes/houses/door.gd" id="1_oxin5"]
 [ext_resource type="Texture2D" uid="uid://thcfbs4ijeh7" path="res://assets/house/walls/wood_door_anim.png" id="1_ugnd1"]
 [ext_resource type="Texture2D" uid="uid://b8fvjvswdbe4m" path="res://assets/house/walls/wood_door.png" id="2_bmxpk"]
 [ext_resource type="PackedScene" uid="uid://ckra7hxs2eo8t" path="res://scenes/components/interactable_component.tscn" id="4_udcto"]

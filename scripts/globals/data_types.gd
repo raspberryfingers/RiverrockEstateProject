@@ -8,5 +8,3 @@ enum Tools {
 	PlantCorn,
 	PlantTomato,
 }
-
-
