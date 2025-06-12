@@ -57,7 +57,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -86,7 +86,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk",
-"speed": 5.0
+"speed": 6.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dbi40"]
@@ -94,6 +94,7 @@ radius = 8.0
 height = 21.4556
 
 [node name="Cow" type="CharacterBody2D"]
+collision_layer = 64
 script = ExtResource("1_whmjb")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -101,6 +102,7 @@ position = Vector2(0, -9)
 sprite_frames = SubResource("SpriteFrames_aemld")
 animation = &"walk"
 autoplay = "idle"
+frame_progress = 0.61049
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -8)
@@ -109,8 +111,12 @@ scale = Vector2(0.652506, 0.652506)
 shape = SubResource("CapsuleShape2D_dbi40")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 10.0
 navigation_layers = 2
+path_postprocessing = 1
 avoidance_enabled = true
+radius = 20.0
+debug_enabled = true
 
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_node_state")]
 script = ExtResource("2_va8sf")

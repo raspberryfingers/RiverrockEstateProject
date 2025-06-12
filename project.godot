@@ -34,6 +34,10 @@ folder_colors={
 "res://tilesets/": "purple"
 }
 
+[global_group]
+
+navigation_polygon_source_geometry_group=""
+
 [input]
 
 walk_up={
@@ -76,6 +80,7 @@ hit={
 2d_physics/layer_4="Tools"
 2d_physics/layer_5="Objects"
 2d_physics/layer_6="Collectables"
+2d_physics/layer_7="NPC"
 
 [rendering]
 
