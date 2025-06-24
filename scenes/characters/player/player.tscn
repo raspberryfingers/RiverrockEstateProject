@@ -733,7 +733,6 @@ radius = 4.0
 y_sort_enabled = true
 collision_layer = 2
 script = ExtResource("1_qcv3q")
-current_tool = 2
 animated_sprite_2d = NodePath("AnimatedSprite2D")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
