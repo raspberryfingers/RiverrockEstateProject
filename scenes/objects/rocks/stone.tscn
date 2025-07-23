@@ -12,11 +12,12 @@ radius = 7.0
 height = 18.0
 
 [node name="Stone" type="Sprite2D"]
+y_sort_enabled = true
 texture = SubResource("AtlasTexture_7qipd")
 
 [node name="CollectableComponent" parent="." instance=ExtResource("2_47pij")]
 position = Vector2(-1, 1)
-collectable_name = " stone"
+collectable_name = "stone"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CollectableComponent"]
 position = Vector2(1, -1)

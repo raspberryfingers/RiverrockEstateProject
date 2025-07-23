@@ -6,5 +6,14 @@ enum Tools {
 	TillGround,
 	WaterCrops,
 	PlantCorn,
-	PlantTomato,
+	PlantTomato
+}
+
+enum GrowthStates {
+	Seed,
+	Germination,
+	Vegetative, 
+	Reprofuction,
+	Maturity,
+	Harvesting
 }

@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://ds628ac0gsri"]
+
+[ext_resource type="FontFile" uid="uid://bq251bls63oj6" path="res://assets/ui/fonts/m6x11.ttf" id="1_iiefo"]
+
+[resource]
+base_font = ExtResource("1_iiefo")
+spacing_bottom = 1

@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://y1tr30335h8o"]
+
+[ext_resource type="Texture2D" uid="uid://cjvqc8l1ybo7n" path="res://assets/icons/no_outline/food_icons_NO_outline.png" id="1_4bm26"]
+[ext_resource type="PackedScene" uid="uid://dwwcmktshlhya" path="res://scenes/components/collectable_component.tscn" id="2_0ifl4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ov3ox"]
+atlas = ExtResource("1_4bm26")
+region = Rect2(2, 50, 13, 12)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xu7m5"]
+radius = 8.0
+
+[node name="WheatHarvest" type="Sprite2D"]
+y_sort_enabled = true
+texture = SubResource("AtlasTexture_ov3ox")
+
+[node name="CollectableComponent" parent="." instance=ExtResource("2_0ifl4")]
+collectable_name = "wheat"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollectableComponent"]
+shape = SubResource("CircleShape2D_xu7m5")
+debug_color = Color(0.31749, 0.625436, 3.85046e-07, 0.42)

@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://bk384p3cs2p7i"]
+
+[ext_resource type="Texture2D" uid="uid://cjvqc8l1ybo7n" path="res://assets/icons/no_outline/food_icons_NO_outline.png" id="1_h1788"]
+[ext_resource type="PackedScene" uid="uid://dwwcmktshlhya" path="res://scenes/components/collectable_component.tscn" id="2_8f0fc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2iuq"]
+atlas = ExtResource("1_h1788")
+region = Rect2(113, 1, 14, 14)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_byg3t"]
+radius = 9.0
+
+[node name="Milk" type="Sprite2D"]
+y_sort_enabled = true
+texture = SubResource("AtlasTexture_o2iuq")
+
+[node name="CollectableComponent" parent="." instance=ExtResource("2_8f0fc")]
+collectable_name = "milk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollectableComponent"]
+shape = SubResource("CircleShape2D_byg3t")
+debug_color = Color(0.024623, 0.650805, 3.85046e-07, 0.42)

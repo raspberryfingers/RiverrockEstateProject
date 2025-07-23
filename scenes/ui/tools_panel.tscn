@@ -1,37 +1,28 @@
-[gd_scene load_steps=13 format=3 uid="uid://bvun2dcn47408"]
+[gd_scene load_steps=10 format=3 uid="uid://bvun2dcn47408"]
 
 [ext_resource type="Theme" uid="uid://cptxnpii13ops" path="res://scenes/ui/game_ui_theme.tres" id="1_2yiqu"]
 [ext_resource type="Script" uid="uid://bk77lh4s8c5b4" path="res://scenes/ui/tools_panel.gd" id="2_0jxvs"]
-[ext_resource type="Texture2D" uid="uid://ctlgu73q3m3ym" path="res://assets/icons/outline/tool_icons_outline.png" id="2_xkgdf"]
-[ext_resource type="Texture2D" uid="uid://bqkbdsvvc4bi7" path="res://assets/icons/outline/food_icons_outline.png" id="3_a7ivs"]
+[ext_resource type="Texture2D" uid="uid://drr2r5k73luv7" path="res://assets/icons/no_outline/tool_icons_NO_outline.png" id="3_0jxvs"]
+[ext_resource type="Texture2D" uid="uid://cjvqc8l1ybo7n" path="res://assets/icons/no_outline/food_icons_NO_outline.png" id="4_0jxvs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0jxvs"]
-atlas = ExtResource("2_xkgdf")
-region = Rect2(48, 0, 16, 16)
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gbtgy"]
-load_path = "res://.godot/imported/tool_icons_outline.png-7a1833c1f0ddb84775d1f18be623ea95.ctex"
+atlas = ExtResource("3_0jxvs")
+region = Rect2(49, 2, 14, 12)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a6726"]
-atlas = SubResource("CompressedTexture2D_gbtgy")
-region = Rect2(80, 0, 16, 16)
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3neg6"]
-load_path = "res://.godot/imported/tool_icons_outline.png-7a1833c1f0ddb84775d1f18be623ea95.ctex"
+atlas = ExtResource("3_0jxvs")
+region = Rect2(81, 2, 14, 13)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ur6ba"]
-atlas = SubResource("CompressedTexture2D_3neg6")
-region = Rect2(96, 0, 16, 16)
+atlas = ExtResource("3_0jxvs")
+region = Rect2(98, 3, 12, 11)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bdu3n"]
-atlas = ExtResource("3_a7ivs")
+atlas = ExtResource("4_0jxvs")
 region = Rect2(16, 112, 16, 16)
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_62b2c"]
-load_path = "res://.godot/imported/food_icons_outline.png-0dd1818733e502e2a09cdc8c875d2417.ctex"
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_icge2"]
-atlas = SubResource("CompressedTexture2D_62b2c")
+atlas = ExtResource("4_0jxvs")
 region = Rect2(16, 64, 16, 16)
 
 [node name="ToolsPanel" type="PanelContainer"]
@@ -48,6 +39,7 @@ layout_mode = 2
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
 layout_mode = 2
+theme_override_constants/separation = 10
 alignment = 1
 
 [node name="ToolAxe" type="Button" parent="MarginContainer/HBoxContainer"]
@@ -56,13 +48,14 @@ layout_mode = 2
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_0jxvs")
 icon_alignment = 1
+expand_icon = true
 
 [node name="ToolTilling" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_a6726")
-icon_alignment = 1
+expand_icon = true
 
 [node name="ToolWateringCan" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
@@ -70,6 +63,7 @@ layout_mode = 2
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_ur6ba")
 icon_alignment = 1
+expand_icon = true
 
 [node name="ToolCorn" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
@@ -77,6 +71,7 @@ layout_mode = 2
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_bdu3n")
 icon_alignment = 1
+expand_icon = true
 
 [node name="ToolTomato" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
@@ -84,6 +79,7 @@ layout_mode = 2
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_icge2")
 icon_alignment = 1
+expand_icon = true
 
 [connection signal="button_down" from="MarginContainer/HBoxContainer/ToolAxe" to="." method="_on_tool_axe_button_down"]
 [connection signal="button_down" from="MarginContainer/HBoxContainer/ToolTilling" to="." method="_on_tool_tilling_button_down"]

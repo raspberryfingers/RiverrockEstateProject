@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2jo4faobvwnv"]
+
+[ext_resource type="Texture2D" uid="uid://cjvqc8l1ybo7n" path="res://assets/icons/no_outline/food_icons_NO_outline.png" id="1_7ds6j"]
+[ext_resource type="PackedScene" uid="uid://dwwcmktshlhya" path="res://scenes/components/collectable_component.tscn" id="2_jxnah"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37y6o"]
+atlas = ExtResource("1_7ds6j")
+region = Rect2(97, 1, 14, 14)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_srxjf"]
+radius = 8.0
+
+[node name="Coin" type="Sprite2D"]
+texture = SubResource("AtlasTexture_37y6o")
+
+[node name="CollectableComponent" parent="." instance=ExtResource("2_jxnah")]
+y_sort_enabled = true
+collectable_name = "coin"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollectableComponent"]
+shape = SubResource("CircleShape2D_srxjf")
+debug_color = Color(0, 0.648739, 0.170532, 0.42)

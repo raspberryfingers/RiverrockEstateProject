@@ -1,11 +1,15 @@
+res://scenes/components
+res://scenes/objects/plants/
 res://scripts/globals
 res://scenes/ui
+res://assets/ui/fonts/
+res://scenes/objects/rewards
+res://scenes/objects
 res://assets/animals/cow
 res://assets/animals/chicken
 res://scenes/characters/chicken
 res://scenes/objects/rocks
 res://scenes/objects/trees
-res://scenes/components
 res://assets/player/player_modular/with_tools
 res://assets/player/player_modular/full_body
 res://assets/player/player_modular/clothes/shirt_green
