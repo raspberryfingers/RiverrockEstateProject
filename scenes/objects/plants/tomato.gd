@@ -1,6 +1,6 @@
 extends Node2D
 
-var wheat_harvest_scene = preload("res://scenes/objects/plants/wheat_harvest.tscn")
+var tomato_harvest_scene = preload("res://scenes/objects/plants/tomato_harvest.tscn")
 
 @onready var sprite_2d: Sprite2D = $Sprite2D
 @onready var watering_particles: GPUParticles2D = $WateringParticles
@@ -36,7 +36,7 @@ func on_crop_maturity() -> void:
 	flowering_particles.emitting = true
 
 func on_crop_harvesting() -> void:
-	var wheat_harvest_instance = wheat_harvest_scene.instantiate() as Node2D
-	wheat_harvest_instance.global_position = global_position
-	get_parent().add_child(wheat_harvest_instance)
+	var tomato_harvest_instance = tomato_harvest_scene.instantiate() as Node2D
+	tomato_harvest_instance.global_position = global_position
+	get_parent().add_child(tomato_harvest_instance)
 	queue_free()

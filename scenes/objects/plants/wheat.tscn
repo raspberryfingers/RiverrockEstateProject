@@ -11,9 +11,11 @@
 size = Vector2(13, 7)
 
 [node name="Wheat" type="Node2D"]
+y_sort_enabled = true
 script = ExtResource("1_hgaca")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+y_sort_enabled = true
 position = Vector2(0, 7)
 texture = ExtResource("1_1mt5r")
 hframes = 7
@@ -27,7 +29,6 @@ frame = 2
 [node name="GrowthCycleComponent" parent="." instance=ExtResource("5_q3ekf")]
 
 [node name="HurtComponent" parent="." instance=ExtResource("2_c4bvv")]
-visible = false
 position = Vector2(0, 7)
 tool = 3
 

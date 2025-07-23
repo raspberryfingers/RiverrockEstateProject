@@ -1,3 +1,5 @@
+res://scenes/objects/plants
+res://assets/player/player_modular/with_tools
 res://scenes/components
 res://scenes/objects/plants/
 res://scripts/globals
@@ -10,7 +12,6 @@ res://assets/animals/chicken
 res://scenes/characters/chicken
 res://scenes/objects/rocks
 res://scenes/objects/trees
-res://assets/player/player_modular/with_tools
 res://assets/player/player_modular/full_body
 res://assets/player/player_modular/clothes/shirt_green
 res://scenes/houses
