@@ -1,6 +1,9 @@
+TileMapLayer
+Node
+TileMap
+Node2D
 CollisionShape2D
 Sprite2D
-Node
 GPUParticles2D
 CanvasModulate
 TextureRect
@@ -9,6 +12,3 @@ Control
 Label
 MarginContainer
 PanelContainer
-VBoxContainer
-Panel
-CanvasLayer

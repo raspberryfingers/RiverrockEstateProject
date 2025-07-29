@@ -19,7 +19,7 @@ region = Rect2(98, 3, 12, 11)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bdu3n"]
 atlas = ExtResource("4_0jxvs")
-region = Rect2(16, 112, 16, 16)
+region = Rect2(19, 50, 10, 13)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_icge2"]
 atlas = ExtResource("4_0jxvs")
@@ -65,7 +65,7 @@ icon = SubResource("AtlasTexture_ur6ba")
 icon_alignment = 1
 expand_icon = true
 
-[node name="ToolCorn" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="ToolWheat" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
 theme_type_variation = &"ToolButton"
@@ -84,5 +84,5 @@ expand_icon = true
 [connection signal="button_down" from="MarginContainer/HBoxContainer/ToolAxe" to="." method="_on_tool_axe_button_down"]
 [connection signal="button_down" from="MarginContainer/HBoxContainer/ToolTilling" to="." method="_on_tool_tilling_button_down"]
 [connection signal="button_down" from="MarginContainer/HBoxContainer/ToolWateringCan" to="." method="_on_tool_watering_can_button_down"]
-[connection signal="button_down" from="MarginContainer/HBoxContainer/ToolCorn" to="." method="_on_tool_corn_button_down"]
+[connection signal="button_down" from="MarginContainer/HBoxContainer/ToolWheat" to="." method="_on_tool_wheat_button_down"]
 [connection signal="button_down" from="MarginContainer/HBoxContainer/ToolTomato" to="." method="_on_tool_tomato_button_down"]
