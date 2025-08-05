@@ -1,0 +1,13 @@
+~ start
+Boggis: [[Hi|Hello|Howdy]], nice to meet you.
+Boggis: Welcome to your new farm.
+Boggis: As you can see the cows and chickens are hungry. 
+Boggis: You need to grow some crops to feed them. 
+Boggis: Here are some seed you can grow. 
+- Take crop seeds 
+	Dean: Yeah I can grow some crops. 
+	do GameDialogueManager.action_give_crop_seeds() 
+- No I don't want them.
+	Dean: I am not ready to grow my farm yet. 
+
+=> END

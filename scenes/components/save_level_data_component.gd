@@ -3,7 +3,7 @@ extends Node
 
 var level_scene_name: String
 var save_game_data_path: String = "user://game_data/"
-var save_file_name: String = "save_game_data.tres"
+var save_file_name: String = "save_%s_game_data.tres"
 var game_data_resource: SaveGameDataResource
 
 

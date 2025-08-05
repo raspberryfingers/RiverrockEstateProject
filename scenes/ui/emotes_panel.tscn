@@ -1,0 +1,73 @@
+[gd_scene load_steps=9 format=3 uid="uid://2lnv70m16htq"]
+
+[ext_resource type="Theme" uid="uid://cptxnpii13ops" path="res://scenes/ui/game_ui_theme.tres" id="1_157xx"]
+[ext_resource type="Script" uid="uid://ow5lxm3t6j30" path="res://scenes/ui/emotes_panel.gd" id="2_gdn4g"]
+[ext_resource type="Texture2D" uid="uid://dm06s23k204nf" path="res://assets/npcs/guide icon.png" id="3_jyaba"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0v663"]
+load_path = "res://.godot/imported/frame_tools.png.png-794a7ba6cd2bcf1f764feee64a806e26.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d1qn1"]
+atlas = SubResource("CompressedTexture2D_0v663")
+region = Rect2(0, 0, 136, 128)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ue7v4"]
+texture = SubResource("AtlasTexture_d1qn1")
+texture_margin_bottom = 8.0
+expand_margin_left = 1.0
+expand_margin_right = 2.0
+region_rect = Rect2(35, 22, 69, 92)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6kdp3"]
+atlas = ExtResource("3_jyaba")
+region = Rect2(0, 0, 30, 30)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7rklx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6kdp3")
+}],
+"loop": true,
+"name": &"emote_1_idle",
+"speed": 5.0
+}]
+
+[node name="EmotesPanel" type="Panel"]
+custom_minimum_size = Vector2(50, 50)
+offset_right = 50.0
+offset_bottom = 50.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource("1_157xx")
+theme_type_variation = &"BambooPanel"
+theme_override_styles/panel = SubResource("StyleBoxTexture_ue7v4")
+script = ExtResource("2_gdn4g")
+
+[node name="Emote" type="Control" parent="."]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Emote"]
+position = Vector2(21, 22)
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("SpriteFrames_7rklx")
+animation = &"emote_1_idle"
+autoplay = "emote_1_idle"
+
+[node name="EmoteIdleTimer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="timeout" from="EmoteIdleTimer" to="." method="_on_emote_idle_timer_timeout"]

@@ -1,0 +1,72 @@
+[gd_scene load_steps=10 format=3 uid="uid://dnbayiitc5t88"]
+
+[ext_resource type="Texture2D" uid="uid://cjk8jto26b4om" path="res://assets/house/objects/chest_anim.png" id="1_yv7tv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vmxm4"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8pawo"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqprm"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umtkn"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayji6"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44sq4"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrpii"]
+atlas = ExtResource("1_yv7tv")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_osdbi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmxm4")
+}],
+"loop": true,
+"name": &"chest_close",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8pawo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqprm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umtkn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayji6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44sq4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrpii")
+}],
+"loop": true,
+"name": &"chest_open",
+"speed": 5.0
+}]
+
+[node name="Chest" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_osdbi")
+animation = &"chest_open"
+autoplay = "chest_close"

@@ -1,24 +1,26 @@
-[gd_scene load_steps=13 format=4 uid="uid://bcupgijb2ey5x"]
+[gd_scene load_steps=14 format=4 uid="uid://bcupgijb2ey5x"]
 
 [ext_resource type="TileSet" uid="uid://8o0qchrt0dtl" path="res://tilesets/game_tile_set.tres" id="1_k82ja"]
+[ext_resource type="PackedScene" uid="uid://da3pdpccsvrbs" path="res://scenes/components/test_scene_enable_tools_buttons_component.tscn" id="2_eu5u8"]
 [ext_resource type="PackedScene" uid="uid://c81rgbkr72ue5" path="res://scenes/components/field_cursor_component.tscn" id="3_k82ja"]
 [ext_resource type="PackedScene" uid="uid://c4rrgbbbdq8pc" path="res://scenes/characters/player/player.tscn" id="4_px3os"]
 [ext_resource type="Script" uid="uid://bdv1bjtcfvdu" path="res://scenes/components/field_cursor_component.gd" id="4_u7vi6"]
 [ext_resource type="PackedScene" uid="uid://u5o1svvqjll3" path="res://scenes/ui/game_screen.tscn" id="5_vd8ke"]
 [ext_resource type="PackedScene" uid="uid://d1dmp04uhmsq8" path="res://scenes/components/day_night_cycle_component.tscn" id="6_bca4u"]
+[ext_resource type="PackedScene" uid="uid://6og2dguhtp18" path="res://scenes/components/save_data_component.tscn" id="6_hayfo"]
 [ext_resource type="PackedScene" uid="uid://c6ih5jo73x3ae" path="res://scenes/components/save_level_data_component.tscn" id="7_3axsj"]
+[ext_resource type="Resource" uid="uid://b4gmo7trqpuw2" path="res://resources/tilemap_layer_data_resource.tres" id="7_eu5u8"]
 [ext_resource type="PackedScene" uid="uid://2idcodwigqw6" path="res://scenes/components/crops_cursor_component.tscn" id="8_bca4u"]
-[ext_resource type="Script" uid="uid://c384ppe01otwo" path="res://scenes/components/save_level_data_component.gd" id="8_px3os"]
 [ext_resource type="Script" uid="uid://vhxvi8sb8ifn" path="res://scenes/components/crops_cursor_component.gd" id="9_oagy1"]
 [ext_resource type="PackedScene" uid="uid://dr6wlx1adassc" path="res://scenes/components/test_scene_save_data_manager_component.tscn" id="9_vd8ke"]
-[ext_resource type="PackedScene" uid="uid://bex4vwpqeepse" path="res://scenes/objects/plants/wheat.tscn" id="10_bca4u"]
 
 [node name="TestSceneTilledDirtTilemap" type="Node2D"]
 
 [node name="SaveLevelDataComponent" parent="." instance=ExtResource("7_3axsj")]
 
+[node name="TestSceneEnableToolsButtonsComponent" parent="." instance=ExtResource("2_eu5u8")]
+
 [node name="TestSceneSaveDataManagerComponent" parent="." instance=ExtResource("9_vd8ke")]
-script = ExtResource("8_px3os")
 
 [node name="DayNightCycleComponent" parent="." instance=ExtResource("6_bca4u")]
 initial_day = 6
@@ -38,6 +40,9 @@ tile_set = ExtResource("1_k82ja")
 [node name="TilledDirt" type="TileMapLayer" parent="GameTilemap"]
 tile_set = ExtResource("1_k82ja")
 
+[node name="SaveDataComponent" parent="GameTilemap/TilledDirt" instance=ExtResource("6_hayfo")]
+save_data_resource = ExtResource("7_eu5u8")
+
 [node name="CropFields" type="Node2D" parent="."]
 
 [node name="FieldCursorComponent" parent="." node_paths=PackedStringArray("grass_tile_map_layer", "tilled_dirt_tile_map_layer") instance=ExtResource("3_k82ja")]
@@ -53,6 +58,3 @@ tilled_dirt_tile_map_layer = NodePath("../GameTilemap/TilledDirt")
 position = Vector2(202, 259)
 
 [node name="GameScreen" parent="." instance=ExtResource("5_vd8ke")]
-
-[node name="Wheat" parent="." instance=ExtResource("10_bca4u")]
-position = Vector2(237, 233)
