@@ -8,6 +8,7 @@ atlas = ExtResource("1_tqs5e")
 region = Rect2(237, 151, 16, 16)
 
 [node name="InteractableLableComponent" type="Control"]
+z_index = 2
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

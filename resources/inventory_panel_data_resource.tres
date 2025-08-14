@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InventoryDataResource" load_steps=2 format=3 uid="uid://dfjl5tf0ch4vi"]
+
+[ext_resource type="Script" uid="uid://dirp1eoiyjnpq" path="res://resources/inventory_panel_data_resource.gd" id="1_spa8u"]
+
+[resource]
+script = ExtResource("1_spa8u")
+inventory_data = {}
+global_position = Vector2(0, 0)
+node_path = NodePath("")
+parent_node_path = NodePath("")

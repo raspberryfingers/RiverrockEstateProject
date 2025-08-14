@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=4 uid="uid://bcupgijb2ey5x"]
+[gd_scene load_steps=15 format=4 uid="uid://bcupgijb2ey5x"]
 
 [ext_resource type="TileSet" uid="uid://8o0qchrt0dtl" path="res://tilesets/game_tile_set.tres" id="1_k82ja"]
 [ext_resource type="PackedScene" uid="uid://da3pdpccsvrbs" path="res://scenes/components/test_scene_enable_tools_buttons_component.tscn" id="2_eu5u8"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://2idcodwigqw6" path="res://scenes/components/crops_cursor_component.tscn" id="8_bca4u"]
 [ext_resource type="Script" uid="uid://vhxvi8sb8ifn" path="res://scenes/components/crops_cursor_component.gd" id="9_oagy1"]
 [ext_resource type="PackedScene" uid="uid://dr6wlx1adassc" path="res://scenes/components/test_scene_save_data_manager_component.tscn" id="9_vd8ke"]
+[ext_resource type="PackedScene" uid="uid://y1tr30335h8o" path="res://scenes/objects/plants/wheat_harvest.tscn" id="14_eu5u8"]
 
 [node name="TestSceneTilledDirtTilemap" type="Node2D"]
 
@@ -58,3 +59,6 @@ tilled_dirt_tile_map_layer = NodePath("../GameTilemap/TilledDirt")
 position = Vector2(202, 259)
 
 [node name="GameScreen" parent="." instance=ExtResource("5_vd8ke")]
+
+[node name="WheatHarvest" parent="." instance=ExtResource("14_eu5u8")]
+position = Vector2(245, 225)

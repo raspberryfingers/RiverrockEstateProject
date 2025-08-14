@@ -3,15 +3,17 @@ extends NodeDataResource
 
 @export var tilemap_layer_used_cells: Array[Vector2i]
 @export var terrain_set: int = 0
-@export var terrain: int = 3 
+@export var terrain: int = 1
 
-func _save_data(node: Node2D) -> void: 
-	super._save_data(node)
+
+func _save_data(source_node: Node) -> void: 
+	super._save_data(source_node)
 	
-	var tilemap_layer: TileMapLayer = node as TileMapLayer
+	var tilemap_layer: TileMapLayer = source_node as TileMapLayer
 	var cells: Array[Vector2i] = tilemap_layer.get_used_cells()
 	
 	tilemap_layer_used_cells = cells
+	
 	
 func _load_data(window: Window) -> void: 
 	var scene_node = window.get_node_or_null(node_path)

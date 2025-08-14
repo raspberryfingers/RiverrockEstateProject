@@ -1,9 +1,12 @@
-[gd_scene load_steps=5 format=3 uid="uid://u5o1svvqjll3"]
+[gd_scene load_steps=8 format=3 uid="uid://u5o1svvqjll3"]
 
 [ext_resource type="Theme" uid="uid://cptxnpii13ops" path="res://scenes/ui/game_ui_theme.tres" id="1_e2vrk"]
 [ext_resource type="PackedScene" uid="uid://bvun2dcn47408" path="res://scenes/ui/tools_panel.tscn" id="2_gusqm"]
 [ext_resource type="PackedScene" uid="uid://dvfrfmne8s30" path="res://scenes/ui/day_and_night_panel.tscn" id="3_gkbp4"]
 [ext_resource type="PackedScene" uid="uid://bxafd210ecx0q" path="res://scenes/ui/inventory_panel.tscn" id="3_gusqm"]
+[ext_resource type="PackedScene" uid="uid://6og2dguhtp18" path="res://scenes/components/save_data_component.tscn" id="4_nwa5a"]
+[ext_resource type="Resource" uid="uid://xm2erhcnxqvj" path="res://resources/day_cycle_data_resource.tres" id="5_ooiym"]
+[ext_resource type="Resource" uid="uid://dfjl5tf0ch4vi" path="res://resources/inventory_panel_data_resource.tres" id="7_ooiym"]
 
 [node name="GameScreen" type="CanvasLayer"]
 
@@ -24,6 +27,9 @@ layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
 
+[node name="SaveDataComponent" parent="MarginContainer/DayAndNightPanel" instance=ExtResource("4_nwa5a")]
+save_data_resource = ExtResource("5_ooiym")
+
 [node name="InventoryPanel" parent="." instance=ExtResource("3_gusqm")]
 anchors_preset = 4
 anchor_top = 0.5
@@ -33,3 +39,6 @@ offset_top = -142.0
 offset_right = 36.0
 offset_bottom = -142.0
 grow_vertical = 2
+
+[node name="SaveDataComponent" parent="InventoryPanel" instance=ExtResource("4_nwa5a")]
+save_data_resource = ExtResource("7_ooiym")

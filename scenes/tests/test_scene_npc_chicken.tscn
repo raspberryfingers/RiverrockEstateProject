@@ -56,11 +56,9 @@ current_tool = 1
 visible = false
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="Chickens"]
-visible = false
 navigation_polygon = SubResource("NavigationPolygon_ilwj0")
 
 [node name="Chicken" parent="Chickens" instance=ExtResource("3_ckiav")]
-visible = false
 position = Vector2(361, 218)
 
 [node name="Cows" type="Node2D" parent="."]

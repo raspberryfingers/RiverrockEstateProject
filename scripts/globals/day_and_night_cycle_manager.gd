@@ -1,5 +1,7 @@
 extends Node
 
+var day_night_data = preload("res://scripts/globals/day_and_night_cycle_manager.gd")
+
 const MINUTES_PER_DAY: int = 24 * 60
 const MINUTES_PER_HOUR: int = 60
 const GAME_MINUTE_DURATION: float = TAU / MINUTES_PER_DAY
@@ -19,7 +21,10 @@ signal time_tick(day: int, hour: int, minute: int)
 signal time_tick_day(day: int)
 
 func _ready() -> void:
-	set_initial_time()
+	if current_day == 0: 
+		set_initial_time()
+	else: 
+		day_night_data = load("res://data/DayNightCycleData.tres")
 
 func _process(delta: float) -> void:
 	time += delta * game_speed * GAME_MINUTE_DURATION

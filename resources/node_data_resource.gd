@@ -6,11 +6,11 @@ extends Resource
 @export var parent_node_path: NodePath
 
 
-func _save_data(node: Node2D) -> void:
-	global_position = node.global_position
-	node_path = node.get_path()
+func _save_data(source_node: Node) -> void:
+	global_position = source_node.global_position
+	node_path = source_node.get_path()
 	
-	var parent_node = node.get_parent()
+	var parent_node = source_node.get_parent()
 	
 	if parent_node != null:
 		parent_node_path = parent_node.get_path()

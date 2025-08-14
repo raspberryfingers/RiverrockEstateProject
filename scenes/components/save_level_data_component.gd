@@ -21,9 +21,11 @@ func save_node_data() -> void:
 		for node: SaveDataComponent in nodes:
 			if node is SaveDataComponent:
 				var save_data_resource: NodeDataResource = node._save_data()
-				var save_final_resource = save_data_resource.duplicate()
-				game_data_resource.save_data_nodes.append(save_final_resource)
-
+				if save_data_resource != null:
+					var save_final_resource = save_data_resource.duplicate()
+					game_data_resource.save_data_nodes.append(save_final_resource)
+				else:
+					push_warning("SaveDataComponent returned null for: " + node.name)
 
 func save_game() -> void:
 	if !DirAccess.dir_exists_absolute(save_game_data_path):

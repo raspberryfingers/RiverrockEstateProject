@@ -1,13 +1,14 @@
+res://scenes/ui
+res://scripts/globals
+res://scenes/levels
+res://resources/
+res://scenes/components
 res://assets/house/objects
 res://scenes/objects/chest
-res://scenes/components
-res://scripts/globals
 res://assets/npcs
 res://assets/ui
-res://scenes/ui
 res://dialogue/
 res://scenes/characters/guide
-res://resources/
 res://scenes/components/
 res://scenes/objects/plants
 res://assets/player/player_modular/with_tools
@@ -19,4 +20,3 @@ res://assets/animals/cow
 res://assets/animals/chicken
 res://scenes/characters/chicken
 res://scenes/objects/rocks
-res://scenes/objects/trees

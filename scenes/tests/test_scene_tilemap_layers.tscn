@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://bn14k6eu56ukf"]
+[gd_scene load_steps=10 format=4 uid="uid://bn14k6eu56ukf"]
 
 [ext_resource type="PackedScene" uid="uid://d1dmp04uhmsq8" path="res://scenes/components/day_night_cycle_component.tscn" id="1_sqmsx"]
 [ext_resource type="TileSet" uid="uid://8o0qchrt0dtl" path="res://tilesets/game_tile_set.tres" id="2_yekbo"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://u5o1svvqjll3" path="res://scenes/ui/game_screen.tscn" id="6_buxyk"]
 [ext_resource type="PackedScene" uid="uid://2idcodwigqw6" path="res://scenes/components/crops_cursor_component.tscn" id="7_p3iug"]
 [ext_resource type="Script" uid="uid://vhxvi8sb8ifn" path="res://scenes/components/crops_cursor_component.gd" id="8_mn4vp"]
+[ext_resource type="PackedScene" uid="uid://da3pdpccsvrbs" path="res://scenes/components/test_scene_enable_tools_buttons_component.tscn" id="9_mn4vp"]
 
 [node name="TestSceneTilledDirtTilemap" type="Node2D"]
 
@@ -45,3 +46,5 @@ position = Vector2(202, 259)
 current_tool = 2
 
 [node name="GameScreen" parent="." instance=ExtResource("6_buxyk")]
+
+[node name="TestSceneEnableToolsButtonsComponent" parent="." instance=ExtResource("9_mn4vp")]

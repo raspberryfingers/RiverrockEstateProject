@@ -20,7 +20,7 @@ lines = {
 &"character": "Boggis",
 &"id": "1",
 &"next_id": "2",
-&"text": "[[Hi|Hello|Howdy]], nice to meet you.",
+&"text": "[[Hi|Hello|Howdy]], look who it is! My favorite cousin in the whole countryside!",
 &"type": "dialogue"
 },
 "10": {
@@ -53,28 +53,28 @@ lines = {
 &"character": "Boggis",
 &"id": "2",
 &"next_id": "3",
-&"text": "Welcome to your new farm.",
+&"text": "Welcome to Riverrock Estate, your new farm is down south of here — she’s a bit rough ‘round the edges, but nothing you can’t handle.",
 &"type": "dialogue"
 },
 "3": {
 &"character": "Boggis",
 &"id": "3",
 &"next_id": "4",
-&"text": "As you can see the cows and chickens are hungry.",
+&"text": "I’ve been sweeping the dust out of your old farmhouse, but I reckon your cows and chickens are starting to eye me for dinner. They’re that hungry.",
 &"type": "dialogue"
 },
 "4": {
 &"character": "Boggis",
 &"id": "4",
 &"next_id": "5",
-&"text": "You need to grow some crops to feed them.",
+&"text": "You’ll need some good crops to keep ‘em fed and happy. Animals around here can be picky eaters, y’know.",
 &"type": "dialogue"
 },
 "5": {
 &"character": "Boggis",
 &"id": "5",
 &"next_id": "6",
-&"text": "Here are some seed you can grow.",
+&"text": "Here, a little welcome gift. Fresh seeds, straight from my garden. Plant ‘em well and you’ll be rolling in feed in no time.",
 &"type": "dialogue"
 },
 "6": {
@@ -123,11 +123,11 @@ lines = {
 }
 }
 raw_text = "~ start
-Boggis: [[Hi|Hello|Howdy]], nice to meet you.
-Boggis: Welcome to your new farm.
-Boggis: As you can see the cows and chickens are hungry. 
-Boggis: You need to grow some crops to feed them. 
-Boggis: Here are some seed you can grow. 
+Boggis: [[Hi|Hello|Howdy]], look who it is! My favorite cousin in the whole countryside!
+Boggis: Welcome to Riverrock Estate, your new farm is down south of here — she’s a bit rough ‘round the edges, but nothing you can’t handle.
+Boggis: I’ve been sweeping the dust out of your old farmhouse, but I reckon your cows and chickens are starting to eye me for dinner. They’re that hungry.
+Boggis: You’ll need some good crops to keep ‘em fed and happy. Animals around here can be picky eaters, y’know.
+Boggis: Here, a little welcome gift. Fresh seeds, straight from my garden. Plant ‘em well and you’ll be rolling in feed in no time.
 - Take crop seeds 
 	Dean: Yeah I can grow some crops. 
 	do GameDialogueManager.action_give_crop_seeds() 
