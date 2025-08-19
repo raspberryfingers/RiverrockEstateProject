@@ -1,8 +1,12 @@
+res://audio/sound_effect
+res://scenes/components
+res://audio/music
+res://audio
+res://audio/
+res://resources/
 res://scenes/ui
 res://scripts/globals
 res://scenes/levels
-res://resources/
-res://scenes/components
 res://assets/house/objects
 res://scenes/objects/chest
 res://assets/npcs
@@ -16,7 +20,3 @@ res://scenes/objects/plants/
 res://assets/ui/fonts/
 res://scenes/objects/rewards
 res://scenes/objects
-res://assets/animals/cow
-res://assets/animals/chicken
-res://scenes/characters/chicken
-res://scenes/objects/rocks

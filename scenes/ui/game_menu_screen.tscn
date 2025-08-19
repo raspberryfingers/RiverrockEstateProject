@@ -1,11 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://ctcy5sjmrj2tt"]
+[gd_scene load_steps=5 format=3 uid="uid://ctcy5sjmrj2tt"]
 
 [ext_resource type="Theme" uid="uid://cptxnpii13ops" path="res://scenes/ui/game_ui_theme.tres" id="1_5slcd"]
 [ext_resource type="PackedScene" uid="uid://dutg54k6qk81i" path="res://scenes/ui/game_menu_screen_background.tscn" id="1_arotu"]
 [ext_resource type="Script" uid="uid://br3q4ure3t6x5" path="res://scenes/ui/game_menu_screen.gd" id="1_l5nq4"]
+[ext_resource type="PackedScene" uid="uid://bheimktfggmub" path="res://scenes/components/mouse_cursor_component.tscn" id="2_jk4o3"]
 
 [node name="GameMenuScreen" type="CanvasLayer"]
 script = ExtResource("1_l5nq4")
+
+[node name="MouseCursorComponent" parent="." instance=ExtResource("2_jk4o3")]
 
 [node name="TestSceneTilemapLayerYSort" parent="." instance=ExtResource("1_arotu")]
 

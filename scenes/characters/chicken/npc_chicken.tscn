@@ -1,10 +1,12 @@
-[gd_scene load_steps=16 format=3 uid="uid://dwm7liumj5sc3"]
+[gd_scene load_steps=18 format=3 uid="uid://dwm7liumj5sc3"]
 
 [ext_resource type="Script" uid="uid://comttixmwtke8" path="res://scenes/characters/chicken/chicken.gd" id="1_r6a33"]
 [ext_resource type="Texture2D" uid="uid://dm7c4prluixnc" path="res://assets/animals/chicken/chicken_01.png" id="1_v1xr4"]
 [ext_resource type="Script" uid="uid://cd6dkqphwbw8t" path="res://scripts/state_machine/node_state_machine.gd" id="2_viurt"]
 [ext_resource type="Script" uid="uid://dmq3v7w52wqo0" path="res://scenes/characters/npc_states/idle_state.gd" id="3_8jbqr"]
 [ext_resource type="Script" uid="uid://3lc5lw3ervfh" path="res://scenes/characters/npc_states/walk_state.gd" id="4_vqchg"]
+[ext_resource type="PackedScene" uid="uid://ciyldeoni7gkj" path="res://audio/sound_effect/chicken_cluck_multiple.tscn" id="6_0a1ph"]
+[ext_resource type="PackedScene" uid="uid://dnp82l8c2h84c" path="res://scenes/components/audio_play_time_component.tscn" id="7_prwi4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c03pl"]
 atlas = ExtResource("1_v1xr4")
@@ -115,3 +117,11 @@ script = ExtResource("4_vqchg")
 character = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 navigation_agent_2d = NodePath("../../NavigationAgent2D")
+
+[node name="ChickenCluckMultiple" parent="." instance=ExtResource("6_0a1ph")]
+max_distance = 200.0
+
+[node name="AutoPlayTimeComponent" parent="." node_paths=PackedStringArray("audio_stream_player_2D") instance=ExtResource("7_prwi4")]
+wait_time = 5.0
+autostart = true
+audio_stream_player_2D = NodePath("../ChickenCluckMultiple")

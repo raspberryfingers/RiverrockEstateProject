@@ -1,4 +1,7 @@
+AudioStreamPlayer2D
+Timer
 TileMapLayer
+Node
 Label
 MarginContainer
 Button
@@ -7,8 +10,5 @@ CanvasLayer
 Node2D
 Camera2D
 Area2D
-Node
 CollisionShape2D
 StaticBody2D
-SaveDataComponent
-Marker2D

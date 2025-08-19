@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj4yf57cp411h"]
+
+[ext_resource type="AudioStream" uid="uid://bbyswvd0u5dxw" path="res://assets/music/mp3/5_frog_pond_master.mp3" id="1_iwkhc"]
+
+[node name="OnTheFarmMusic" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_iwkhc")
+bus = &"Music"

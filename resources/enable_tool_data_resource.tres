@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EnableToolsDataResource" load_steps=2 format=3 uid="uid://clte12occrv1h"]
+
+[ext_resource type="Script" uid="uid://cnpid1lgleqf1" path="res://resources/enable_tools_data_resource.gd" id="1_j4lqr"]
+
+[resource]
+script = ExtResource("1_j4lqr")
+unlocked_tools = Array[int]([1, 2, 3, 4, 5])
+global_position = Vector2(0, 0)
+node_path = NodePath("")
+parent_node_path = NodePath("")
