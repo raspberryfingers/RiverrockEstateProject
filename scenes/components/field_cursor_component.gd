@@ -1,13 +1,16 @@
+# field_cursor_component.gd
 class_name FieldCursorComponent
 extends Node
 
-
+# References to the tilemap layers used in the field.
 @export var grass_tile_map_layer: TileMapLayer
 @export var tilled_dirt_tile_map_layer: TileMapLayer
+
+# Terrain configuration for tilled soil.
 @export var terrain_set: int = 0 
 @export var terrain: int = 1
 
-
+# References and state variables used during interactions.
 var player: Player 
 var mouse_position: Vector2
 var cell_position: Vector2i
@@ -16,11 +19,13 @@ var local_cell_position: Vector2
 var distance: float
 
 func _ready() -> void:
+	# Wait one frame so that all nodes are ready, then find the player node.
 	await get_tree().process_frame
 	player = get_tree().get_first_node_in_group("player")
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	# Handle player input for interacting with soil.
 	if event.is_action_pressed("remove_dirt"): 
 		if ToolManager.selected_tool == DataTypes.Tools.TillGround: 
 			get_cell_under_mouse()
@@ -33,21 +38,28 @@ func _unhandled_input(event: InputEvent) -> void:
 			
 
 func get_cell_under_mouse() -> void: 
+	# Converts the current mouse position into the corresponding tilemap cell.
 	mouse_position = grass_tile_map_layer.get_local_mouse_position()
 	cell_position = grass_tile_map_layer.local_to_map(mouse_position)
 	cell_source_id = grass_tile_map_layer.get_cell_source_id(cell_position)
 	local_cell_position = grass_tile_map_layer.map_to_local(cell_position)
+	
+	# Calculate distance between player and the cell under the mouse.
 	distance = player.global_position.distance_to(local_cell_position)
 	
+	# Debug information for development.
 	print("mouse_position: ", mouse_position, " cell_position ", cell_position, " cell_source_id ", cell_source_id)
 	print("distance: ", distance)
 	
 
 func add_tilled_soil_cell() -> void: 
+	# If close enough to the target cell and it's valid, till the soil.
 	if distance < 20.0 && cell_source_id != -1: 
 		tilled_dirt_tile_map_layer.set_cells_terrain_connect([cell_position], terrain_set, terrain, true)
 		print("Changed Terrain: ", terrain)
 
+
 func remove_tilled_soil_cell() -> void: 
+	# If close enough to the target cell, remove tilled soil.
 	if distance < 20.0: 
 		tilled_dirt_tile_map_layer.set_cells_terrain_connect([cell_position], 0, -1, true)

@@ -20,7 +20,6 @@ size = Vector2(11, 16)
 [node name="LargeTree" type="Sprite2D"]
 y_sort_enabled = true
 material = ExtResource("1_pxr1l")
-position = Vector2(0, -20)
 texture = SubResource("AtlasTexture_0daff")
 script = ExtResource("2_15wbu")
 
@@ -32,6 +31,7 @@ shape = SubResource("CapsuleShape2D_y4qi0")
 
 [node name="HurtComponent" parent="." instance=ExtResource("2_10uwt")]
 position = Vector2(-5, 7)
+tool = 1
 
 [node name="HurtComponentCollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
 position = Vector2(5, 5)

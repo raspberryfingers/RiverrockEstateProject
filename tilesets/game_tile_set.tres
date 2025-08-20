@@ -2138,7 +2138,7 @@ texture = ExtResource("9_nlt5x")
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, 8, 8, 8, -8, -8, -8)
 
 [resource]
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 17
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Grass Terrains Dark Green"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)

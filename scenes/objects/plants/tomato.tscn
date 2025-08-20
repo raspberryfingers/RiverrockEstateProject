@@ -30,6 +30,7 @@ frame = 9
 [node name="GrowthCycleComponent" parent="." instance=ExtResource("4_cwthb")]
 
 [node name="HurtComponent" parent="." instance=ExtResource("5_0mou4")]
+tool = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
 y_sort_enabled = true

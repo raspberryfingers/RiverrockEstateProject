@@ -1,30 +1,38 @@
+# crops_cursor_component.gd
+# Handles planting and removing crops on the tilled soil layer.
+# Supports Wheat and Tomato crops, ensuring no overlap and distance restrictions.
+
 class_name CropsCursorComponent
 extends Node
 
-@export var tilled_dirt_tile_map_layer: TileMapLayer
-@export var terrain_set: int = 0
-@export var terrain: int = 3
+# Editor Exports
+@export var tilled_dirt_tile_map_layer: TileMapLayer  # TileMap layer representing tilled soil
+@export var terrain_set: int = 0 # Terrain set ID used for planting
+@export var terrain: int = 3 # Terrain type ID used for planting
 
-var player: Node = null
+# Internal Variables
+var player: Node = null # Reference to the player node
+var wheat_plant_scene = preload("res://scenes/objects/plants/wheat.tscn") # Wheat plant scene
+var tomato_plant_scene = preload("res://scenes/objects/plants/tomato.tscn") # Tomato plant scene
 
-var wheat_plant_scene = preload("res://scenes/objects/plants/wheat.tscn")
-var tomato_plant_scene = preload("res://scenes/objects/plants/tomato.tscn")
-
-var mouse_position: Vector2
-var cell_position: Vector2i
-var local_cell_position: Vector2
-var distance: float
+var mouse_position: Vector2 # Mouse position relative to tilemap
+var cell_position: Vector2i # Tile cell under mouse
+var local_cell_position: Vector2 # World/local position for placing crops
+var distance: float # Distance from player to targeted tile
 
 # How close a crop must be to count as "on the same tile"
 const CROP_SNAP_THRESHOLD: float = 8.0
 
 
 func _ready() -> void:
+	# Wait one frame to ensure all nodes are initialized
 	await get_tree().process_frame
+	# Get the first player node in the group
 	player = get_tree().get_first_node_in_group("player")
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	# Handle planting or removing crops based on input and selected tool
 	if event.is_action_pressed("remove_dirt") and ToolManager.selected_tool == DataTypes.Tools.TillGround:
 		_get_cell_under_mouse()
 		_remove_crop()
@@ -37,53 +45,48 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _get_cell_under_mouse() -> void:
-	# local mouse position relative to the tilemap
+	# Convert mouse position to tile coordinates
 	mouse_position = tilled_dirt_tile_map_layer.get_local_mouse_position()
 	cell_position = tilled_dirt_tile_map_layer.local_to_map(mouse_position)
-	# map_to_local gives a position relative to the tilemap node; convert to global
 	local_cell_position = tilled_dirt_tile_map_layer.map_to_local(cell_position)
-	# if it needs the global position to place nodes in world coordinates, convert:
-	# var world_pos = tilled_dirt_tile_map_layer.to_global(local_cell_position)
-	# distance to player (player.global_position should exist)
+
+	# Calculate distance from player to tile for validation
 	if player:
-		# use global position of the tile for distance calculation
 		var tile_world_pos = tilled_dirt_tile_map_layer.to_global(local_cell_position)
 		distance = player.global_position.distance_to(tile_world_pos)
-		# store the tile_world_pos for placement
 		local_cell_position = tile_world_pos
 	else:
-		distance = 9999.0
+		distance = 9999.0  # Arbitrary large distance if player not found
 
 
 func _is_tile_on_tilled_layer(cell_pos: Vector2i) -> bool:
-	# Simple presence check: the tilled dirt tilemap layer must have a tile at this cell
-	# get_cell_source_id returns -1 when there's no tile
+	# Check if there is a tile at the specified cell in the tilled dirt layer
 	var source_id = tilled_dirt_tile_map_layer.get_cell_source_id(cell_pos)
 	return source_id != -1
 
 
 func _crop_exists_at(pos: Vector2) -> bool:
+	# Check if a crop already exists within the snap threshold
 	var crop_fields = get_parent().get_node_or_null("CropFields")
 	if crop_fields == null:
 		return false
+
 	for child in crop_fields.get_children():
-		if child is Node2D:
-			# compare world distance so small float offsets won't break exact equality
-			if child.global_position.distance_to(pos) <= CROP_SNAP_THRESHOLD:
-				return true
+		if child is Node2D and child.global_position.distance_to(pos) <= CROP_SNAP_THRESHOLD:
+			return true
 	return false
 
 
 func _add_crop() -> void:
-	# Must be close enough to the tile and the tile must exist on the tilled dirt layer
+	# Only plant if player is close enough and the tile is tilled
 	if distance < 20.0 and _is_tile_on_tilled_layer(cell_position):
-		# do not plant if a crop already exists on this tile
+		# Prevent planting if a crop already exists at this position
 		if _crop_exists_at(local_cell_position):
 			print("Cannot plant: crop already exists at that tile.")
 			return
 
-
 		var instance: Node2D = null
+		# Instantiate the correct crop based on selected tool
 		if ToolManager.selected_tool == DataTypes.Tools.PlantWheat:
 			instance = wheat_plant_scene.instantiate() as Node2D
 		elif ToolManager.selected_tool == DataTypes.Tools.PlantTomato:
@@ -98,6 +101,7 @@ func _add_crop() -> void:
 			else:
 				push_error("CropFields node not found under parent: " + str(get_parent()))
 	else:
+		# Inform player why planting failed
 		if distance >= 20.0:
 			print("Too far to plant. Distance:", distance)
 		elif not _is_tile_on_tilled_layer(cell_position):
@@ -105,13 +109,13 @@ func _add_crop() -> void:
 
 
 func _remove_crop() -> void:
+	# Only remove crops if player is close enough
 	if distance < 20.0:
 		var crop_fields = get_parent().get_node_or_null("CropFields")
 		if crop_fields == null:
 			return
 		for node in crop_fields.get_children():
-			if node is Node2D:
-				if node.global_position.distance_to(local_cell_position) <= CROP_SNAP_THRESHOLD:
-					node.queue_free()
-					print("Crop removed at cell:", cell_position)
-					return
+			if node is Node2D and node.global_position.distance_to(local_cell_position) <= CROP_SNAP_THRESHOLD:
+				node.queue_free()
+				print("Crop removed at cell:", cell_position)
+				return

@@ -1,4 +1,4 @@
-# ChopActionState.gd
+# chopping_state.gd
 # Handles the chopping action for the player, including animation and collision detection.
 extends NodeState
 

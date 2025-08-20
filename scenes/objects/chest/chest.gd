@@ -1,37 +1,47 @@
+# chest_component.gd
+# This component handles a chest that can be interacted with, opened to show dialogue,
+# and used to feed animals, spawning harvest items and rewards.
 extends Node2D
 
+# Preloaded scenes
 var balloon_scene = preload("res://dialogue/game_dialogue_balloon.tscn")
+var wheat_harvest = preload("res://scenes/objects/plants/wheat_harvest_icon.tscn")
+var tomato_harvest = preload("res://scenes/objects/plants/tomato_harvest_icon.tscn")
 
-var wheat_harvest = preload("res://scenes/objects/plants/wheat_harvest.tscn")
-var tomato_harvest = preload("res://scenes/objects/plants/tomato_harvest.tscn")
+# Exported variables for customisation
+@export var dialogue_start_command: String  # Dialogue command to start when chest is opened
+@export var food_drop_height: int = 40 # Height above chest where harvested items appear
+@export var reward_output_radius: int = 20 # Radius for random reward placement
+@export var output_reward_scenes: Array[PackedScene] = [] # Rewards to spawn when feeding
 
-@export var dialogue_start_command: String 
-@export var food_drop_height: int = 40 
-@export var reward_output_radius: int = 20
-@export var output_reward_scenes: Array[PackedScene] = []
-
+# Onready references to child nodes
 @onready var interactable_component: InteractableComponent = $InteractableComponent
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var feed_component: FeedComponent = $FeedComponent
 @onready var reward_marker: Marker2D = $RewardMarker
 @onready var interactable_lable_component: Control = $InteractableLableComponent
 
-var in_range: bool 
-var is_chest_open: bool 
+# Internal state variables
+var in_range: bool # Is the player in range to interact with the chest
+var is_chest_open: bool # Is the chest currently open
 
 func _ready() -> void:
+	# Connect signals for interaction and feeding
 	interactable_component.interactable_activated.connect(on_interactable_activated)
 	interactable_component.interactable_deactivated.connect(on_interactable_deactivated)
 	interactable_lable_component.hide()
 	
 	GameDialogueManager.feed_the_animals.connect(on_feed_the_animals)
 	feed_component.food_recieved.connect(on_food_received)
-	
+
+
+# Called when player enters interaction range
 func on_interactable_activated() -> void: 
 	interactable_lable_component.show()
 	in_range = true 
 	
-	
+
+# Called when player leaves interaction range
 func on_interactable_deactivated() -> void: 
 	if is_chest_open:
 		animated_sprite_2d.play("chest_close")
@@ -44,6 +54,7 @@ func on_interactable_deactivated() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if in_range: 
 		if event.is_action_pressed("show_dialogue"): 
+			# Open the chest and start dialogue 
 			interactable_lable_component.hide() 
 			animated_sprite_2d.play("chest_open")
 			is_chest_open = true 
@@ -54,12 +65,14 @@ func _unhandled_input(event: InputEvent) -> void:
 			balloon.start(load("res://dialogue/chest.dialogue"), dialogue_start_command)
 
 
+# Triggered when the "feed the animals" event occurs
 func on_feed_the_animals() -> void: 
 	if in_range: 
 		trigger_feed_harvest("wheat", wheat_harvest)
 		trigger_feed_harvest("tomato", tomato_harvest)
 
 
+# Spawns harvested items from inventory, animates them to chest position, and removes them from inventory
 func trigger_feed_harvest(inventory_item: String, scene: Resource) -> void: 
 	var inventory: Dictionary = InventoryManager.inventory
 	
@@ -84,10 +97,13 @@ func trigger_feed_harvest(inventory_item: String, scene: Resource) -> void:
 		
 		InventoryManager.remove_collectable(inventory_item)
 
+
+# Called when feed_component receives food
 func on_food_received(area: Area2D) -> void:
 	call_deferred("add_reward_scene")
 
 
+# Adds reward scenes around the reward marker in a random circular area
 func add_reward_scene() -> void:
 	for scene in output_reward_scenes:
 		var reward_scene: Node2D = scene.instantiate()
@@ -96,6 +112,7 @@ func add_reward_scene() -> void:
 		get_tree().root.add_child(reward_scene)
 
 
+# Returns a random position within a circle around a given center
 func get_random_position_in_circle(center: Vector2, radius: int) -> Vector2i:
 	var angle = randf() * TAU
 	
